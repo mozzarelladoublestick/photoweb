@@ -14,7 +14,7 @@
         <img src="../assets/people/image02.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../assets/people/imag03.jpg" alt="" />
+        <img src="../assets/people/image03.jpg" alt="" />
       </div>
       <div class="image-item">
         <img src="../assets/people/image01.jpg" alt="" />
