@@ -4,7 +4,8 @@
 
 <template>
   
-  <h1 class="text-center text-4xl py-8">people</h1>
+  <h1 id="people" class="text-center text-black text-4xl pt-8 pb-4">people</h1>
+  <p class="text-center pb-8">capturing moments. <br/> capturing smiles.<br/> capturing tears.</p>
   <div class="image-gallery py-2">
     <div class="column">
       <div class="image-item">
@@ -43,9 +44,6 @@
     </div>
     <div class="column">
       <div class="image-item">
-        <img src="../assets/people/image07.jpg" alt="" />
-      </div>
-      <div class="image-item">
         <img src="../assets/people/image08.jpg" alt="" />
       </div>
       <div class="image-item">
@@ -60,7 +58,8 @@
     </div>
   </div>
 
-  <h1 class="text-center text-4xl py-8">outdoor</h1>
+  <h1 id="outdoor" class="text-center text-black text-4xl pt-8 pb-4">outdoor</h1>
+  <p class="text-center pb-8">capturing sunrays. <br/> capturing raindrops.<br/> capturing beauty.</p>
   <div class="image-gallery py-2">
     <div class="column">
       <div class="image-item">
@@ -155,7 +154,7 @@ h1{
 
 .image-item img {
   width: 100%;
-  border-radius: 5px;
+
   height: 100%;
   object-fit: cover;
 }
@@ -169,6 +168,9 @@ h1{
 @media only screen and (min-width: 768px) {
   .image-gallery {
     flex-direction: row;
+  }
+  .image-item img{
+    border-radius: 5px;
   }
 }
 </style>
