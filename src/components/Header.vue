@@ -25,7 +25,11 @@
 @media (min-width: 768px) {
   .header{
   background-image: url("../assets/cover/cover.jpg");
+  display: flex;
 
+}
+.header a{
+  display: flex;
 }
 }
 </style>
