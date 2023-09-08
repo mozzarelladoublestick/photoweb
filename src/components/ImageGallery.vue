@@ -8,57 +8,54 @@
   <div class="image-gallery py-2">
     <div class="column">
       <div class="image-item">
-        <img src="../people/image (10).jpg" alt="" />
+        <img src="../assets/people/image10.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../people/image (2).jpg" alt="" />
+        <img src="../assets/people/image02.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../people/image (3).jpg" alt="" />
+        <img src="../assets/people/imag03.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../people/image (1).jpg" alt="" />
+        <img src="../assets/people/image01.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../people/image (13).jpg" alt="" />
+        <img src="../assets/people/image13.jpg" alt="" />
       </div>
 
     </div>
     <div class="column">
       <div class="image-item">
-        <img src="../people/image (4).jpg" alt="" />
+        <img src="../assets/people/image04.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../people/image (5).jpg" alt="" />
+        <img src="../assets/people/image05.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../people/image (6).jpg" alt="" />
+        <img src="../assets/people/image06.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../people/image (11).jpg" alt="" />
+        <img src="../assets/people/image07.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../people/image (14).jpg" alt="" />
+        <img src="../assets/people/image14.jpg" alt="" />
       </div>
     </div>
     <div class="column">
       <div class="image-item">
-        <img src="../people/image (7).jpg" alt="" />
+        <img src="../assets/people/image07.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../people/image (8).jpg" alt="" />
+        <img src="../assets/people/image08.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../people/image (9).jpg" alt="" />
+        <img src="../assets/people/image09.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../people/image (12).jpg" alt="" />
+        <img src="../assets/people/image12.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../people/image (15).jpg" alt="" />
-      </div>
-      <div class="image-item">
-        <img src="../people/image (15).jpg" alt="" />
+        <img src="../assets/people/image15.jpg" alt="" />
       </div>
     </div>
   </div>
@@ -67,72 +64,72 @@
   <div class="image-gallery py-2">
     <div class="column">
       <div class="image-item">
-        <img src="../outdoor/image (3).jpg" alt="" />
+        <img src="../assets/outdoor/image03.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../outdoor/image (2).jpg" alt="" />
+        <img src="../assets/outdoor/image02.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../outdoor/image (10).jpg" alt="" />
+        <img src="../assets/outdoor/image10.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../outdoor/image (1).jpg" alt="" />
+        <img src="../assets/outdoor/image01.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../outdoor/image (13).jpg" alt="" />
+        <img src="../assets/outdoor/image13.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../outdoor/image (18).jpg" alt="" />
+        <img src="../assets/outdoor/image18.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../outdoor/image (22).jpg" alt="" />
+        <img src="../assets/outdoor/image22.jpg" alt="" />
       </div>
   
     </div>
     <div class="column">
       <div class="image-item">
-        <img src="../outdoor/image (4).jpg" alt="" />
+        <img src="../assets/outdoor/image04.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../outdoor/image (5).jpg" alt="" />
+        <img src="../assets/outdoor/image05.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../outdoor/image (6).jpg" alt="" />
+        <img src="../assets/outdoor/image06.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../outdoor/image (19).jpg" alt="" />
+        <img src="../assets/outdoor/image19.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../outdoor/image (14).jpg" alt="" />
+        <img src="../assets/outdoor/image14.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../outdoor/image (11).jpg" alt="" />
+        <img src="../assets/outdoor/image11.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../outdoor/image (16).jpg" alt="" />
+        <img src="../assets/outdoor/image16.jpg" alt="" />
       </div>
     </div>
     <div class="column">
       <div class="image-item">
-        <img src="../outdoor/image (7).jpg" alt="" />
+        <img src="../assets/outdoor/image07.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../outdoor/image (8).jpg" alt="" />
+        <img src="../assets/outdoor/image08.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../outdoor/image (9).jpg" alt="" />
+        <img src="../assets/outdoor/image09.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../outdoor/image (12).jpg" alt="" />
+        <img src="../assets/outdoor/image12.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../outdoor/image (15).jpg" alt="" />
+        <img src="../assets/outdoor/image15.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../outdoor/image (20).jpg" alt="" />
+        <img src="../assets/outdoor/image20.jpg" alt="" />
       </div>
       <div class="image-item">
-        <img src="../outdoor/image (17).jpg" alt="" />
+        <img src="../assets/outdoor/image17.jpg" alt="" />
       </div>
     </div>
   </div>
