@@ -14,10 +14,13 @@
 
 <style scoped>
 .header{
-  background-image: url("../assets/cover/cover.jpg");
+  background-image: url("../assets/cover/cover_mobile.jpg");
 }
 
 @media (min-width: 768px) {
-
+  .header{
+  background-image: url("../assets/cover/cover.jpg");
+  background-repeat: no-repeat;
+}
 }
 </style>
