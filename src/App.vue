@@ -7,9 +7,6 @@ import Contact from './components/Contact.vue'
 
 <template>
     <Header></Header>
-    <ImageGallery></ImageGallery>
-    <About></About>
-    <Contact></Contact>
 </template>
 
 <style scoped>

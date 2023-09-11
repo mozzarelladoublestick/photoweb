@@ -3,7 +3,7 @@
 
 // core version + navigation, pagination modules:
 import Swiper from 'swiper';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination, EffectFade } from 'swiper/modules';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -13,12 +13,13 @@ export default {
   mounted() {
     // Initialize Swiper when the component is mounted
     this.initSwiper();
-    swiper.slideNext();
+
+    
   },
   methods: {
     initSwiper() {
       const swiper = new Swiper('.swiper-container', {
-        modules: [Navigation, Pagination],
+        modules: [Navigation, Pagination, EffectFade],
         slidesPerView: 1,
         effect: 'fade',
         loop: true,
@@ -37,9 +38,12 @@ export default {
   },
 
       });
-      document.querySelector('.next-button').addEventListener('click', () => {
-        swiper.slideNext(); // Trigger next slide
-      });
+      document.querySelector('.swiper-container').addEventListener('click', () => {
+     swiper.slideNext();
+      },
+      
+      );
+
     },
   },
   
@@ -51,15 +55,13 @@ export default {
 <template>
 <div class="swiper-container">
     <div class="swiper-wrapper">
-   <div class="swiper-slide">  <img class="swiper-img"  src="../assets/cover/mountain_hochjoch.jpg">   <div class="absolute text-white top-2 left-4">LOGO</div><div class="absolute text-white top-2 right-4">outdoor people me</div>
-  <div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"> <button class="swiper-button-prev"></button><button class="swiper-button-next"></button><h3>MONTAFON, VORARLBERG</h3><h1>Up & Up</h1><p>explore my outdoor photography</p></div> </div>
-   <div class="swiper-slide">  <img class="swiper-img" src="../assets/cover/capricorns_hochjoch.jpg">   <div class="absolute text-white top-2 left-4">LOGO</div><div class="absolute text-white top-2 right-4">outdoor people me</div><div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"><button class="swiper-button-prev"></button><button class="swiper-button-next"></button><h3>MONTAFON, VORARLBERG</h3><h1>Kings of the Alps</h1><p>explore my outdoor photography</p></div> </div>
-   <div class="swiper-slide"><img class="swiper-img" src="../assets/cover/cover.jpg">   <div class="absolute text-white top-2 left-4">LOGO</div><div class="absolute text-white top-2 right-4">outdoor people me</div><div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"><button class="swiper-button-prev"></button><button class="swiper-button-next"></button><h3>MONTAFON, VORARLBERG</h3><h1>Kings of the Alps</h1><p>explore my outdoor photography</p></div> </div>
+   <div class="swiper-slide">  <img class="swiper-img"  src="../assets/cover/mountain_hochjoch.jpg">   <div class="absolute text-white top-2 left-4">LOGO</div><div class="absolute text-white top-2 right-4">outdoor people me</div><div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"> <button class="swiper-button-prev"></button><button class="swiper-button-next"></button><h3>MONTAFON, VORARLBERG</h3><h1>Up & Up</h1><p>explore my outdoor photography</p><img class="h-12 w-12 m-4" src="../assets/icons/play.svg"></div><div class="absolute text-white bottom-2 right-4"><div class="flex m-4 text-xs"><div class="flex-row mx-10"><p class="font-bold">ISO</p><p>100</p></div><div class="flex-row mx-10"><p class="font-bold">SHUTTER</p><p>1/2000</p></div><div class="flex-row mx-10"><p class="font-bold">ARPETURE</p><p>f/5.6</p></div></div></div> </div> 
+   <div class="swiper-slide">  <img class="swiper-img" src="../assets/cover/capricorns_hochjoch.jpg">   <div class="absolute text-white top-2 left-4">LOGO</div><div class="absolute text-white top-2 right-4">outdoor people me</div><div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"><button class="swiper-button-prev"></button><button class="swiper-button-next"></button><h3>MONTAFON, VORARLBERG</h3><h1>Kings of the Alps</h1><p>explore my outdoor photography</p> </div><div class="absolute text-white bottom-2 right-4"><div class="flex m-4 text-xs"><div class="flex-row mx-10"><p class="font-bold">ISO</p><p>200</p></div><div class="flex-row mx-10"><p class="font-bold">SHUTTER</p><p>1/600</p></div><div class="flex-row mx-10"><p class="font-bold">ARPETURE</p><p>f/5.6</p></div></div></div></div>
+   <div class="swiper-slide"><img class="swiper-img" src="../assets/outdoor/image22.jpg">   <div class="absolute text-white top-2 left-4">LOGO</div><div class="absolute text-white top-2 right-4">outdoor people me</div><div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"><button class="swiper-button-prev"></button><button class="swiper-button-next"></button><h3>BREGENZERWALD, VORARLBERG</h3><h1>The Last Rays</h1><p>explore my outdoor photography</p></div> <div class="absolute text-white bottom-2 right-4"><div class="flex m-4 text-xs"><div class="flex-row mx-10"><p class="font-bold">ISO</p><p>100</p></div><div class="flex-row mx-10"><p class="font-bold">SHUTTER</p><p>1/1400</p></div><div class="flex-row mx-10"><p class="font-bold">ARPETURE</p><p>f/4.6</p></div></div></div></div>
     <!-- Add Pagination -->
     <div class="swiper-pagination"></div>
  
    </div>
-<div class="next-button">hit me</div>
 </div>
 
 </template>
@@ -84,6 +86,10 @@ export default {
     color: white;
     font-size: 24px;
   }
+}
+.swiper-container{
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 .swiper-img{
  width: 100%;
