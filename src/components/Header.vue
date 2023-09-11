@@ -1,76 +1,67 @@
 <script>
-// Import Swiper Vue.js components
-import { Swiper, SwiperSlide } from 'swiper/vue';
+
+
+// core version + navigation, pagination modules:
+import Swiper from 'swiper';
+import { Navigation, Pagination } from 'swiper/modules';
 
 // Import Swiper styles
 import 'swiper/css';
-import { ref } from "vue";
-import 'swiper/css/effect-fade';
-  import 'swiper/css/navigation';
-  import 'swiper/css/pagination';
-  import { EffectFade, Navigation, Pagination } from 'swiper/modules';
-
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 export default {
-  components: {
-    Swiper,
-    SwiperSlide,
+  mounted() {
+    // Initialize Swiper when the component is mounted
+    this.initSwiper();
+    swiper.slideNext();
+  },
+  methods: {
+    initSwiper() {
+      const swiper = new Swiper('.swiper-container', {
+        modules: [Navigation, Pagination],
+        slidesPerView: 1,
+        effect: 'fade',
+        loop: true,
+        keyboard: {
+      enabled: true,
+        onlyInViewport: true,
+       },
+        clickable: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+  },
+
+      });
+      document.querySelector('.next-button').addEventListener('click', () => {
+        swiper.slideNext(); // Trigger next slide
+      });
+    },
   },
   
-  setup() {
-    const onSwiper = (swiper) => {
-      console.log(swiper);
-    };
-    const onSlideChange = () => {
-      console.log('slide change');
-    };
-       // Function to go to the next slide
-    const goToNextSlide = (swiper) => {
-        swiper.slideNext();
 };
-    return {
-      onSwiper,
-      onSlideChange,
-      goToNextSlide,
-      modules: [EffectFade, Navigation, Pagination],
-    };
-  },
-};
+
 
 </script>
 
 <template>
-  <swiper
-    :slides-per-view="1"
-    :space-between="0"
-    :effect="'fade'"
-    :navigation="false"
-    :pagination="{
-    clickable: true,
-}"
-:modules="modules"
-    @swiper="onSwiper"
-    @slideChange="onSlideChange"
-    class="relative text-center h-screen swiper">
-         <swiper-slide>
-         <img class="swiper-img"  src="../assets/cover/mountain_hochjoch.jpg">   <div class="absolute text-white top-2 left-4">LOGO</div><div class="absolute text-white top-2 right-4">outdoor people me</div><div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"><h3>MONTAFON, VORARLBERG</h3><h1>Up & Up</h1><p>explore my outdoor photography</p></div> 
-       </swiper-slide>
-       <swiper-slide>
-         <img class="swiper-img" src="../assets/cover/capricorns_hochjoch.jpg">   <div class="absolute text-white top-2 left-4">LOGO</div><div class="absolute text-white top-2 right-4">outdoor people me</div><div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"><h3>MONTAFON, VORARLBERG</h3><h1>Kings of the Alps</h1><p>explore my outdoor photography</p></div> 
-       </swiper-slide>
-       <swiper-slide>
-         <img class="swiper-img" src="../assets/cover/cover.jpg">   <div class="absolute text-white top-2 left-4">LOGO</div><div class="absolute text-white top-2 right-4">outdoor people me</div><div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"><h3>MONTAFON, VORARLBERG</h3><h1>Kings of the Alps</h1><p>explore my outdoor photography</p></div> 
-       </swiper-slide>
-  </swiper>
-  <button  @click="goToNextSlide">click me</button>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+   <div class="swiper-slide">  <img class="swiper-img"  src="../assets/cover/mountain_hochjoch.jpg">   <div class="absolute text-white top-2 left-4">LOGO</div><div class="absolute text-white top-2 right-4">outdoor people me</div>
+  <div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"> <button class="swiper-button-prev"></button><button class="swiper-button-next"></button><h3>MONTAFON, VORARLBERG</h3><h1>Up & Up</h1><p>explore my outdoor photography</p></div> </div>
+   <div class="swiper-slide">  <img class="swiper-img" src="../assets/cover/capricorns_hochjoch.jpg">   <div class="absolute text-white top-2 left-4">LOGO</div><div class="absolute text-white top-2 right-4">outdoor people me</div><div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"><button class="swiper-button-prev"></button><button class="swiper-button-next"></button><h3>MONTAFON, VORARLBERG</h3><h1>Kings of the Alps</h1><p>explore my outdoor photography</p></div> </div>
+   <div class="swiper-slide"><img class="swiper-img" src="../assets/cover/cover.jpg">   <div class="absolute text-white top-2 left-4">LOGO</div><div class="absolute text-white top-2 right-4">outdoor people me</div><div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"><button class="swiper-button-prev"></button><button class="swiper-button-next"></button><h3>MONTAFON, VORARLBERG</h3><h1>Kings of the Alps</h1><p>explore my outdoor photography</p></div> </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+ 
+   </div>
+<div class="next-button">hit me</div>
+</div>
 
-
-  <div class="header sm: bg-contain bg-cover min-h-screen text-lg text-center md:flex justify-center items-center text-white">
-    <a href="#people" class="px-22 font-medium sm:py-22 md:flex-col p-12">PEOPLE</a>
-    <a href="#outdoor" class="font-medium md:flex-col p-12">OUTDOOR</a>
-    <p class="font-medium md:flex-col p-12">LOGO</p>
-    <a href="#about" class="font-medium md:flex-col p-12">ABOUT</a>
-    <a href="#contact" class="font-medium md:flex-col p-12">CONTACT</a>
-  </div>
 </template>
 
 <style scoped>
@@ -98,7 +89,21 @@ export default {
  width: 100%;
   object-fit: cover;
   object-position: center top;
-  height: auto;
+  height: 100vh;
+}
+.swiper-button-prev, .swiper-button-next{
+color:white;
+font-size: 12px;
+}
+.swiper-button-next{
+  left:auto;
+    right:14rem;
+    top: -2rem;
+}
+.swiper-button-prev{
+right: auto;
+left: auto;
+    top: -2rem;
 }
 
 .header{

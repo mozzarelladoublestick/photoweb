@@ -1,11 +1,11 @@
 {
-  "name": "photo",
+  "name": "swiper-vue-effect-fade",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "dev": "vite",
+    "start": "vite"
   },
   "dependencies": {
     "swiper": "^10.2.0",
@@ -19,14 +19,7 @@
     "vite": "^4.4.9"
   },
   "license": "MIT",
-  "name": "swiper-vue-effect-fade",
-  "scripts": {
-    "build": "vite build",
-    "dev": "vite",
-    "start": "vite"
-  },
   "tags": [
     "swiper"
   ]
-  
 }
