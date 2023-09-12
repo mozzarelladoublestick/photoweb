@@ -20,23 +20,23 @@ export default {
         modules: [Navigation, Pagination, EffectFade, Autoplay],
         slidesPerView: 1,
         autoplay: {
-        delay: 4000,
+          delay: 4000,
         },
         loop: true,
-        observer: true, 
+        observer: true,
         observeParents: true,
         pagination: {
           el: '.swiper-pagination',
           clickable: true,
         },
         navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
         },
       });
     },
   },
-  
+
 };
 
 
@@ -44,71 +44,148 @@ export default {
 
 <template>
   <div class="around">
-<div class="swiper-container">
-  <div class="absolute z-10 text-white top-2 left-4">LOGO</div><div class="z-10 absolute text-white top-2 right-4">outdoor people me</div>
-    <div class="swiper-wrapper">
+    <div class="swiper-container">
+      <div class="absolute z-10 text-white top-2 left-4">LOGO</div>
+      <div class="z-10 absolute text-white top-2 right-4">outdoor people me</div>
+      <div class="swiper-wrapper">
 
-   <div class="swiper-slide">  <img class="swiper-img"  src="../assets/cover/mountain_hochjoch.jpg">   <div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"> <h3>MONTAFON, VORARLBERG</h3><h1>Up & Up</h1><div class="inline-flex items-center"><img class="h-4 w-4 mr-2" src="../assets/icons/play.svg"><p>explore my outdoor photography</p></div></div><div class="absolute text-white bottom-2 left-14 md:left-auto md:right-4"><div class="flex m-2 md:m-4 mb-24 md:mb-6 text-xs"><div class="flex-row mx-4 md:mx-10"><p class="font-bold">ISO</p><p>100</p></div><div class="flex-row mx-4 md:mx-10"><p class="font-bold">SHUTTER</p><p>1/2000</p></div><div class="flex-row mx-4 md:mx-10"><p class="font-bold">ARPETURE</p><p>f/5.6</p></div></div></div> </div> 
-   <div class="swiper-slide">  <img class="swiper-img"  src="../assets/cover/capricorns_hochjoch.jpg"><div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"> <h3>MONTAFON, VORARLBERG</h3><h1>Up & Up</h1><p>explore my outdoor photography</p><img class="h-12 w-12 m-4" src="../assets/icons/play.svg"></div><div class="absolute text-white bottom-2 left-14 md:left-auto md:right-4"><div class="flex m-2 md:m-4 mb-24 md:mb-6 text-xs"><div class="flex-row mx-4 md:mx-10"><p class="font-bold">ISO</p><p>100</p></div><div class="flex-row mx-4 md:mx-10"><p class="font-bold">SHUTTER</p><p>1/2000</p></div><div class="flex-row mx-4 md:mx-10"><p class="font-bold">ARPETURE</p><p>f/5.6</p></div></div></div> </div> 
-   <div class="swiper-slide">  <img class="swiper-img"  src="../assets/outdoor/image22.jpg">  <div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"> <h3>MONTAFON, VORARLBERG</h3><h1>Up & Up</h1><p>explore my outdoor photography</p><img class="h-12 w-12 m-4" src="../assets/icons/play.svg"></div><div class="absolute text-white bottom-2 left-14 md:left-auto md:right-4"><div class="flex m-2 md:m-4 mb-24 md:mb-6 text-xs"><div class="flex-row mx-4 md:mx-10"><p class="font-bold">ISO</p><p>100</p></div><div class="flex-row mx-4 md:mx-10"><p class="font-bold">SHUTTER</p><p>1/2000</p></div><div class="flex-row mx-4 md:mx-10"><p class="font-bold">ARPETURE</p><p>f/5.6</p></div></div></div> </div>   
-  
+        <div class="swiper-slide"> <img class="swiper-img" src="../assets/cover/mountain_hochjoch.jpg">
+          <div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6">
+            <h3>MONTAFON, VORARLBERG</h3>
+            <h1>Up & Up</h1>
+            <div class="inline-flex items-center"><img class="h-4 w-4 mr-2" src="../assets/icons/play.svg">
+              <p>explore my outdoor photography</p>
+            </div>
+          </div>
+          <div class="absolute text-white bottom-2 left-14 md:left-auto md:right-4">
+            <div class="flex m-2 md:m-4 mb-24 md:mb-6 text-xs">
+              <div class="flex-row mx-4 md:mx-10">
+                <p class="font-bold">ISO</p>
+                <p>100</p>
+              </div>
+              <div class="flex-row mx-4 md:mx-10">
+                <p class="font-bold">SHUTTER</p>
+                <p>1/2000</p>
+              </div>
+              <div class="flex-row mx-4 md:mx-10">
+                <p class="font-bold">APERTURE</p>
+                <p>f/5.6</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide"> <img class="swiper-img" src="../assets/cover/capricorns_hochjoch.jpg">
+          <div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6">
+            <h3>MONTAFON, VORARLBERG</h3>
+            <h1>Up & Up</h1>
+            <div class="inline-flex items-center"><img class="h-4 w-4 mr-2" src="../assets/icons/play.svg">
+              <p>explore my outdoor photography</p>
+            </div>
+          </div>
+          <div class="absolute text-white bottom-2 left-14 md:left-auto md:right-4">
+            <div class="flex m-2 md:m-4 mb-24 md:mb-6 text-xs">
+              <div class="flex-row mx-4 md:mx-10">
+                <p class="font-bold">ISO</p>
+                <p>100</p>
+              </div>
+              <div class="flex-row mx-4 md:mx-10">
+                <p class="font-bold">SHUTTER</p>
+                <p>1/2000</p>
+              </div>
+              <div class="flex-row mx-4 md:mx-10">
+                <p class="font-bold">APERTURE</p>
+                <p>f/5.6</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide"> <img class="swiper-img" src="../assets/outdoor/image22.jpg">
+          <div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6">
+            <h3>MONTAFON, VORARLBERG</h3>
+            <h1>Up & Up</h1>
+            <div class="inline-flex items-center"><img class="h-4 w-4 mr-2" src="../assets/icons/play.svg">
+              <p>explore my outdoor photography</p>
+            </div>
+          </div>
+          <div class="absolute text-white bottom-2 left-14 md:left-auto md:right-4">
+            <div class="flex m-2 md:m-4 mb-24 md:mb-6 text-xs">
+              <div class="flex-row mx-4 md:mx-10">
+                <p class="font-bold">ISO</p>
+                <p>100</p>
+              </div>
+              <div class="flex-row mx-4 md:mx-10">
+                <p class="font-bold">SHUTTER</p>
+                <p>1/2000</p>
+              </div>
+              <div class="flex-row mx-4 md:mx-10">
+              <p class="font-bold">APERTURE</p>
+              <p>f/5.6</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+
+    <span class="swiper-button-prev"></span><span class="swiper-button-next"></span>
   </div>
-       <!-- Add Pagination -->
-       <div class="swiper-pagination"></div>
 
-<span class="swiper-button-prev"></span><span class="swiper-button-next"></span>
-</div>
+</div></template>
 
-</div>
-</template>
+<style scoped>:global(.swiper-pagination-bullet) {
+  background: white !important;
+  opacity: 0.4 !important;
+  scale: 0.6;
+}
 
-<style scoped>
+:global(.swiper-pagination-bullet-active) {
+  background: white !important;
+  opacity: 1 !important;
+  scale: 0.6;
+}
 
-:global(.swiper-pagination-bullet){
-background: white !important;
-opacity: 0.4 !important;
-scale: 0.6;
+:global(.swiper-button-next) {
+  color: white;
+  scale: 0.3;
 }
-:global(.swiper-pagination-bullet-active){
-background: white !important;
-opacity: 1 !important;
-scale: 0.6;
+
+:global(.swiper-button-prev) {
+  color: white;
+  scale: 0.3;
 }
-:global(.swiper-button-next){
-color: white;
-scale: 0.3;
-}
-:global(.swiper-button-prev){
-color: white;
-scale: 0.3;
-}
-.swiper-img{
- width: 100%;
+
+.swiper-img {
+  width: 100%;
   object-fit: cover;
   object-position: center top;
   height: 100vh;
 }
-.around{
+
+.around {
   overflow-y: hidden;
   overflow-x: hidden;
 }
-.header{
+
+.header {
   background-image: url("../assets/cover/cover_mobile.jpg");
   background-repeat: no-repeat;
   display: block;
 }
-.header a{
+
+.header a {
   display: block;
 }
 
 @media (min-width: 768px) {
-  .header{
-  background-image: url("../assets/cover/cover.jpg");
-  display: flex;
+  .header {
+    background-image: url("../assets/cover/cover.jpg");
+    display: flex;
 
-}
-.header a{
-  display: flex;
-}
-}
-</style>
+  }
+
+  .header a {
+    display: flex;
+  }
+}</style>
