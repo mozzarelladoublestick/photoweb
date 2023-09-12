@@ -3,7 +3,7 @@
 
 // core version + navigation, pagination modules:
 import Swiper from 'swiper';
-import { Navigation, Pagination, EffectFade, Autoplay } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 Swiper.use([Navigation]);
 // Import Swiper styles
 import 'swiper/css';
@@ -17,7 +17,7 @@ export default {
   methods: {
     initSwiper() {
       const swiper = new Swiper('.swiper-container', {
-        modules: [Navigation, Pagination, EffectFade, Autoplay],
+        modules: [Navigation, Pagination, Autoplay],
         slidesPerView: 1,
         autoplay: {
           delay: 4000,
@@ -65,11 +65,11 @@ export default {
               </div>
               <div class="flex-row mx-4 md:mx-10">
                 <p class="font-bold">SHUTTER</p>
-                <p>1/2000</p>
+                <p>1/1000</p>
               </div>
               <div class="flex-row mx-4 md:mx-10">
                 <p class="font-bold">APERTURE</p>
-                <p>f/5.6</p>
+                <p>f/5</p>
               </div>
             </div>
           </div>
@@ -77,7 +77,7 @@ export default {
         <div class="swiper-slide"> <img class="swiper-img" src="../assets/cover/capricorns_hochjoch.jpg">
           <div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6">
             <h3>MONTAFON, VORARLBERG</h3>
-            <h1>Up & Up</h1>
+            <h1>Kings of the Alps</h1>
             <div class="inline-flex items-center"><img class="h-4 w-4 mr-2" src="../assets/icons/play.svg">
               <p class="text-xs">explore my outdoor photography</p>
             </div>
@@ -90,19 +90,19 @@ export default {
               </div>
               <div class="flex-row mx-4 md:mx-10">
                 <p class="font-bold">SHUTTER</p>
-                <p>1/2000</p>
+                <p>1/400</p>
               </div>
               <div class="flex-row mx-4 md:mx-10">
                 <p class="font-bold">APERTURE</p>
-                <p>f/5.6</p>
+                <p>f/6.3</p>
               </div>
             </div>
           </div>
         </div>
-        <div class="swiper-slide"> <img class="swiper-img" src="../assets/outdoor/image22.jpg">
+        <div class="swiper-slide"> <img class="swiper-img" src="../assets/cover/sonnenuntergang.jpg">
           <div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6">
-            <h3>MONTAFON, VORARLBERG</h3>
-            <h1>Up & Up</h1>
+            <h3>BREGENZERWALD, VORARLBERG</h3>
+            <h1>The Last Rays</h1>
             <div class="inline-flex items-center"><img class="h-4 w-4 mr-2" src="../assets/icons/play.svg">
               <p class="text-xs">explore my outdoor photography</p>
             </div>
@@ -115,11 +115,11 @@ export default {
               </div>
               <div class="flex-row mx-4 md:mx-10">
                 <p class="font-bold">SHUTTER</p>
-                <p>1/2000</p>
+                <p>1/160</p>
               </div>
               <div class="flex-row mx-4 md:mx-10">
               <p class="font-bold">APERTURE</p>
-              <p>f/5.6</p>
+              <p>f/4</p>
             </div>
           </div>
         </div>
@@ -160,7 +160,6 @@ export default {
 .swiper-img {
   width: 100%;
   object-fit: cover;
-  object-position: center top;
   height: 100vh;
 }
 
