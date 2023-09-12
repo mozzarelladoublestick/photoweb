@@ -54,7 +54,7 @@ export default {
             <h3>MONTAFON, VORARLBERG</h3>
             <h1>Up & Up</h1>
             <div class="inline-flex items-center"><img class="h-4 w-4 mr-2" src="../assets/icons/play.svg">
-              <p class="text-xs">explore my outdoor photography</p>
+              <p class="text-sm">explore my outdoor photography</p>
             </div>
           </div>
           <div class="absolute text-white bottom-2 left-14 md:left-auto md:right-4">
@@ -79,7 +79,7 @@ export default {
             <h3>MONTAFON, VORARLBERG</h3>
             <h1>Kings of the Alps</h1>
             <div class="inline-flex items-center"><img class="h-4 w-4 mr-2" src="../assets/icons/play.svg">
-              <p class="text-xs">explore my outdoor photography</p>
+              <p class="text-sm">explore my outdoor photography</p>
             </div>
           </div>
           <div class="absolute text-white bottom-2 left-14 md:left-auto md:right-4">
@@ -104,7 +104,7 @@ export default {
             <h3>BREGENZERWALD, VORARLBERG</h3>
             <h1>The Last Rays</h1>
             <div class="inline-flex items-center"><img class="h-4 w-4 mr-2" src="../assets/icons/play.svg">
-              <p class="text-xs">explore my outdoor photography</p>
+              <p class="text-sm">explore my outdoor photography</p>
             </div>
           </div>
           <div class="absolute text-white bottom-2 left-14 md:left-auto md:right-4">
@@ -162,6 +162,11 @@ export default {
   object-fit: cover;
   height: 100vh;
 }
+
+.swiper-slide{
+  text-shadow: #6c6c6c 1px 0 10px
+}
+
 
 .around {
   overflow-y: hidden;
