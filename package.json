@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "swiper": "^10.2.0",
-    "vue": "^3.3.4"
+    "vue": "^3.3.4",
+    "vue-router": "^4.0.13"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.3.1",

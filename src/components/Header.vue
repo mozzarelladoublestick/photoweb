@@ -46,7 +46,7 @@ export default {
   <div class="around">
     <div class="swiper-container">
       <div class="absolute z-10 text-white top-2 left-4">LOGO</div>
-      <div class="z-10 absolute text-white top-2 right-4">outdoor people me</div>
+      <div class="z-10 absolute text-white top-2 right-4"><div class="inline-flex"> <router-link to="/"><h4 class="mx-6">outdoor</h4></router-link>    <router-link to="/"><h4 class="mx-6">people</h4></router-link><router-link to="/about"><h4 class="mx-6">me</h4></router-link></div></div>
       <div class="swiper-wrapper">
 
         <div class="swiper-slide"> <img class="swiper-img" src="../assets/cover/mountain_hochjoch.jpg">
@@ -54,7 +54,7 @@ export default {
             <h3>MONTAFON, VORARLBERG</h3>
             <h1>Up & Up</h1>
             <div class="inline-flex items-center"><img class="h-4 w-4 mr-2" src="../assets/icons/play.svg">
-              <p>explore my outdoor photography</p>
+              <p class="text-xs">explore my outdoor photography</p>
             </div>
           </div>
           <div class="absolute text-white bottom-2 left-14 md:left-auto md:right-4">
@@ -79,7 +79,7 @@ export default {
             <h3>MONTAFON, VORARLBERG</h3>
             <h1>Up & Up</h1>
             <div class="inline-flex items-center"><img class="h-4 w-4 mr-2" src="../assets/icons/play.svg">
-              <p>explore my outdoor photography</p>
+              <p class="text-xs">explore my outdoor photography</p>
             </div>
           </div>
           <div class="absolute text-white bottom-2 left-14 md:left-auto md:right-4">
@@ -104,7 +104,7 @@ export default {
             <h3>MONTAFON, VORARLBERG</h3>
             <h1>Up & Up</h1>
             <div class="inline-flex items-center"><img class="h-4 w-4 mr-2" src="../assets/icons/play.svg">
-              <p>explore my outdoor photography</p>
+              <p class="text-xs">explore my outdoor photography</p>
             </div>
           </div>
           <div class="absolute text-white bottom-2 left-14 md:left-auto md:right-4">
@@ -132,7 +132,8 @@ export default {
     <span class="swiper-button-prev"></span><span class="swiper-button-next"></span>
   </div>
 
-</div></template>
+</div>
+</template>
 
 <style scoped>:global(.swiper-pagination-bullet) {
   background: white !important;
