@@ -3,7 +3,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import Header from './components/Header.vue'
 import About from './components/About.vue'
-import Contact from './components/Contact.vue'
+import People from './components/People.vue'
+import Outdoor from './components/Outdoor.vue'
 
 const routes = [
   {
@@ -17,9 +18,14 @@ const routes = [
     component: About
   },
   {
-    path: '/contact',
-    name: 'Contact',
-    component: Contact
+    path: '/people',
+    name: 'People',
+    component: People
+  },
+  {
+    path: '/outdoor',
+    name: 'Outdoor',
+    component: Outdoor
   },
 ]
 
