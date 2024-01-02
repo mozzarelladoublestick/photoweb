@@ -1,6 +1,6 @@
 // scrollReveal.js
 export function reveal() {
-    var reveals = document.querySelectorAll(".reveal");
+    var reveals = document.querySelectorAll(".reveal-left, .reveal-right, .reveal");
     for (var i = 0; i < reveals.length; i++) {
       var windowHeight = window.innerHeight;
       var elementTop = reveals[i].getBoundingClientRect().top;

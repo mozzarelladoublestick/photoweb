@@ -5,6 +5,7 @@ import Header from './components/Header.vue'
 import About from './components/About.vue'
 import People from './components/People.vue'
 import Outdoor from './components/Outdoor.vue'
+import Insights from './components/Insights.vue'
 
 const routes = [
   {
@@ -27,6 +28,11 @@ const routes = [
     name: 'Outdoor',
     component: Outdoor
   },
+  {
+    path: '/insights',
+    name: 'Insights',
+    component: Insights
+  }
 ]
 
 // Rest of the router.js file...
@@ -36,4 +42,4 @@ const router = createRouter({
   routes,
 })
 
-export default router
+export default router;
