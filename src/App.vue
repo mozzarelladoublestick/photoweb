@@ -48,7 +48,7 @@ onUnmounted(() => {
 .custom-cursor {
   width: 20px;
   height: 20px;
-  border: 1px solid #fff; /* Change the border color */
+  border: 1px solid #727272; /* Change the border color */
   border-radius: 50%;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -64,7 +64,7 @@ onUnmounted(() => {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #fff; /* Change to the desired background color */
+  background-color: #747474; /* Change to the desired background color */
   transition: all 0.1s ease-in; /* Add transition for smooth size change */
 }
 

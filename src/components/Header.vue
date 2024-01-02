@@ -54,7 +54,7 @@ export default {
             <h3>MONTAFON, VORARLBERG</h3>
             <h1>Up & Up</h1>
             <div class="inline-flex items-center"><img class="h-4 w-4 mr-2" src="../assets/icons/play.svg">
-              <a href="/" class="text-sm font-light link">explore my outdoor photography</a>
+              <a href="/outdoor" class="text-sm font-light link">explore my outdoor photography</a>
             </div>
           </div>
           <div class="absolute text-white bottom-2 left-14 md:left-auto md:right-4">
