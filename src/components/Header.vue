@@ -44,9 +44,28 @@ export default {
 
 <template>
   <div class="around">
-    <div class="swiper-container">
-      <div class="absolute z-10 text-white top-2 left-4"><a href="/" class="logo"><img class="h-16 w-16 mr-2" src="../assets/logo_white_square.svg"></a></div>
-      <div class="z-10 absolute text-white top-2 right-4"><div class="inline-flex"> <router-link to="/outdoor"><h4 class="px-6">outdoor</h4></router-link>    <router-link to="/people"><h4 class="px-6">people</h4></router-link><router-link to="/about"><h4 class="px-6">me</h4></router-link></div></div>
+<div class="swiper-container relative">
+  <div class="absolute top-2 left-4 z-50">
+    <div class="flex items-center justify-center">
+      <a href="/" class="logo">
+        <img class="md:h-16 md:w-16 w-32 h-32 mr-2" src="../assets/logo_white_square.svg">
+      </a>
+    </div>
+  </div>
+  <div class="absolute top-2 right-4 mb-4 text-center text-white md:text-right z-50">
+    <div class="inline-flex">
+      <router-link to="/outdoor">
+        <h4 class="px-6">outdoor</h4>
+      </router-link>
+      <router-link to="/people">
+        <h4 class="px-6">people</h4>
+      </router-link>
+      <router-link to="/about">
+        <h4 class="px-6">me</h4>
+      </router-link>
+    </div>
+  </div>
+
       <div class="swiper-wrapper">
 
         <div class="swiper-slide"> <img class="swiper-img" src="../assets/cover/mountain_hochjoch.jpg">
