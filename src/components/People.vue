@@ -116,7 +116,7 @@ onMounted(() => {
 </div>
 </div>
 </div>
-<img class="reveal m-4 mx-auto align-center w-[801px] h-fit" src="../assets/people/IMG_6835.jpg">
+<img class="reveal m-4 mx-auto align-center w-[801px] h-fit" src="../assets/people/IMG_6837.jpg">
 
 
 </div>
