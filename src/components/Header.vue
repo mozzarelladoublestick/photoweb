@@ -93,10 +93,10 @@ export default {
             </div>
           </div>
         </div>
-        <div class="swiper-slide"> <img class="swiper-img" src="../assets/cover/team_back.jpg">
+        <div class="swiper-slide"> <img class="swiper-img" src="../assets/cover/IMG_3333.jpg">
           <div class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6">
-            <h3>MUENCHEN, GERMANY</h3>
-            <h1>Holiday Walk</h1>
+            <h3>UPPER AUSTRIA</h3>
+            <h1>Between Sessions</h1>
             <div class="inline-flex items-center"><img class="h-4 w-4 mr-2" src="../assets/icons/play.svg">
               <a href="/people" class="text-sm font-light link">explore my people photography</a>
             </div>
