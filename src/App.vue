@@ -7,6 +7,7 @@ import router from './router';
 
 import { ref, onMounted, onUnmounted } from 'vue';
 
+/*
 const cursor = ref(null);
 const smallCursor = ref(null);
 
@@ -37,6 +38,7 @@ onUnmounted(() => {
   window.removeEventListener('mousemove', updateCursorPosition);
   window.removeEventListener('click', toggleActiveCursor);
 });
+*/
 </script>
 
 <template>

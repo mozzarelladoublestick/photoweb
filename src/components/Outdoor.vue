@@ -34,7 +34,7 @@ onMounted(() => {
   </div>
   <div class="mt-10 mx-4 md:mx-60">
 
-
+<!--first block-->
     <div class="flex flex-col md:flex-row md:justify-center">
       <img class="md:m-4 w-full md:w-96 flex h-fit reveal-left" src="../assets/outdoor/IMG_1139.jpg">
       <div class="flex md:m-4">
@@ -43,7 +43,7 @@ onMounted(() => {
             <img class="rotate-90 md:transform-none md:pt-10 flex w-8 h-fit align-left" src="../assets/icons/arrow_left.svg">
             <div class="reveal-right">
               <p class="pt-10 flex text-left text-lg font-bold">hochjoch klettersteig</p>
-              <p class="flex text-left">experiencing the experience</p>
+              <p class="flex text-left">unter den steinböcken</p>
               <div class="flex mt-4 text-left text-xs">
               <div class="flex-row mr-4">
                 <p class="font-bold">ISO</p>
@@ -66,18 +66,17 @@ onMounted(() => {
 </div>
 </div>
 <img class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit" src="../assets/outdoor/IMG_1178.jpg">
-
-
-<div class=" flex flex-col md:flex-row justify-center">
-
-<div class="flex m-4 ">
-    <div class="flex flex-col ">
-    <div class="mt-4 mb-4">
-    <img class="reveal-right pt-10 flex w-8 h-fit align-right" src="../assets/icons/arrow_right.svg">
-    <div class="reveal-left">
-    <p class="pt-10 flex text-right text-lg font-bold">murmile luaga</p>
-    <p class="flex text-right">experiencing the experience</p>
-            <div class="flex mt-4 text-left text-xs">
+<!--second block-->
+<div class="flex flex-col md:flex-row md:justify-center">
+  
+      <div class="flex md:m-4">
+        <div class="flex flex-col">
+          <div class="md:mt-4 md:mb-4 mt-8 mb-12 ml-4 mr-4">
+            <img class="rotate-90 md:transform-none md:pt-10 flex w-8 h-fit align-right" src="../assets/icons/arrow_right.svg">
+            <div class="reveal-left">
+              <p class="pt-10 flex text-left text-lg font-bold">bregenzerwald</p>
+              <p class="flex text-left">zutrauliche murmeltiere</p>
+              <div class="flex mt-4 text-left text-xs">
               <div class="flex-row mr-4">
                 <p class="font-bold">ISO</p>
                 <p>100</p>
@@ -93,25 +92,25 @@ onMounted(() => {
             </div>
           </div>
     </div>
-    <img class="reveal-left flex w-96 h-fit mt-auto" src="../assets/outdoor/image22.jpg">
+  <img class="flex mt-auto w-full md:w-96 h-fit reveal-left" src="../assets/outdoor/image22.jpg">
+
 </div>
 </div>
-<img class="m-4 flex w-96 h-fit reveal-right" src="../assets/outdoor/IMG_9820.jpg">
+<img class="md:m-4 w-full md:w-96 flex h-fit reveal-right" src="../assets/outdoor/IMG_9820.jpg">
 </div>
-<img class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit" src="../assets/outdoor/image20.jpg">
+<img class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit" src="../assets/outdoor/image20.jpg">">
 
-
-
-<div class=" flex flex-col md:flex-row justify-center">
-<img class="m-4 flex w-96 h-fit reveal-left" src="../assets/outdoor/image05.jpg">
-<div class="flex m-4 ">
-    <div class="flex flex-col ">
-    <div class="mt-4 mb-4">
-    <img class="reveal-left pt-10 flex w-8 h-fit" src="../assets/icons/arrow_left.svg">
-    <div class="reveal-right">
-    <p class="pt-10 flex text-left text-lg font-bold">das neunte bundesland</p>
-    <p class="flex text-left">experiencing the experience</p>
-            <div class="flex mt-4 text-left text-xs">
+<!--third block-->
+<div class="flex flex-col md:flex-row md:justify-center">
+      <img class="md:m-4 w-full md:w-96 flex h-fit reveal-left" src="../assets/outdoor/image05.jpg">
+      <div class="flex md:m-4">
+        <div class="flex flex-col">
+          <div class="md:mt-4 md:mb-4 mt-8 mb-12 ml-4 mr-4">
+            <img class="rotate-90 md:transform-none md:pt-10 flex w-8 h-fit align-left" src="../assets/icons/arrow_left.svg">
+            <div class="reveal-right">
+              <p class="pt-10 flex text-left text-lg font-bold">das neunte bundesland</p>
+              <p class="flex text-left">erster besuch im burgenland</p>
+              <div class="flex mt-4 text-left text-xs">
               <div class="flex-row mr-4">
                 <p class="font-bold">ISO</p>
                 <p>100</p>
@@ -127,12 +126,12 @@ onMounted(() => {
             </div>
           </div>
     </div>
-    <img class="reveal-right flex w-96 h-fit mt-auto" src="../assets/outdoor/image04.jpg">
+  <img class="flex mt-auto w-full md:w-96 h-fit reveal-right" src="../assets/outdoor/image04.jpg">
+
 </div>
 </div>
 </div>
 <img class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit" src="../assets/outdoor/image13.jpg">
-
 
 </div>
 </body>
