@@ -1,11 +1,12 @@
-<script setup>
-
-</script>
+<script setup></script>
 
 <template>
-  
   <h1 id="people" class="text-center text-black text-4xl pt-8 pb-4">people</h1>
-  <p class="text-center pb-8">capturing moments. <br/> capturing smiles.<br/> capturing tears.</p>
+  <p class="text-center pb-8">
+    capturing moments. <br />
+    capturing smiles.<br />
+    capturing tears.
+  </p>
   <div class="image-gallery py-2">
     <div class="column">
       <div class="image-item">
@@ -23,7 +24,6 @@
       <div class="image-item">
         <img src="../assets/people/image13.jpg" alt="" />
       </div>
-
     </div>
     <div class="column">
       <div class="image-item">
@@ -58,8 +58,14 @@
     </div>
   </div>
 
-  <h1 id="outdoor" class="text-center text-black text-4xl pt-8 pb-4">outdoor</h1>
-  <p class="text-center pb-8">capturing sunrays. <br/> capturing raindrops.<br/> capturing beauty.</p>
+  <h1 id="outdoor" class="text-center text-black text-4xl pt-8 pb-4">
+    outdoor
+  </h1>
+  <p class="text-center pb-8">
+    capturing sunrays. <br />
+    capturing raindrops.<br />
+    capturing beauty.
+  </p>
   <div class="image-gallery py-2">
     <div class="column">
       <div class="image-item">
@@ -83,7 +89,6 @@
       <div class="image-item">
         <img src="../assets/outdoor/image22.jpg" alt="" />
       </div>
-  
     </div>
     <div class="column">
       <div class="image-item">
@@ -134,10 +139,8 @@
   </div>
 </template>
 
-
 <style scoped>
-h1{
-  font-family: 'Homemade Apple';
+h1 {
 }
 .image-gallery {
   /* Mobile first */
@@ -158,18 +161,17 @@ h1{
   height: 100%;
   object-fit: cover;
 }
-.image-item:hover{
-  filter:grayscale();
+.image-item:hover {
+  filter: grayscale();
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
-;
 }
 
 @media only screen and (min-width: 768px) {
   .image-gallery {
     flex-direction: row;
   }
-  .image-item img{
+  .image-item img {
     border-radius: 5px;
   }
 }

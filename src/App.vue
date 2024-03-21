@@ -1,11 +1,11 @@
 <script setup>
-import Header from './components/Header.vue'
-import ImageGallery from './components/ImageGallery.vue'
-import About from './components/About.vue'
-import Contact from './components/Contact.vue'
-import router from './router';
+import Header from "./components/Header.vue";
+import ImageGallery from "./components/ImageGallery.vue";
+import About from "./components/About.vue";
+import Contact from "./components/Contact.vue";
+import router from "./router";
 
-import { ref, onMounted, onUnmounted } from 'vue';
+import { ref, onMounted, onUnmounted } from "vue";
 
 /*
 const cursor = ref(null);
@@ -42,8 +42,8 @@ onUnmounted(() => {
 </script>
 
 <template>
-   <div class="custom-cursor flex items-center justify-center"><div class="small-cursor"></div></div>
-<router-view></router-view>
+  <div class="flex items-center justify-center"></div>
+  <router-view></router-view>
 </template>
 
 <style scoped>
@@ -82,5 +82,4 @@ a {
 .router-link-active {
   cursor: none;
 }
-
 </style>

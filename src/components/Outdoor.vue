@@ -1,8 +1,8 @@
 <script setup>
-import Navbar from './Navbar.vue';
+import Navbar from "./Navbar.vue";
 
-import { ref, onMounted } from 'vue';
-import { reveal } from '../scripts/Outdoor';
+import { ref, onMounted } from "vue";
+import { reveal } from "../scripts/Outdoor";
 onMounted(() => {
   // To check the scroll position on page load
   window.addEventListener("scroll", reveal);
@@ -11,160 +11,199 @@ onMounted(() => {
 </script>
 
 <template>
-  <body class="relative overflow-x-hidden">
-     <div class="relative z-10 text-black top-2 left-4">
+  <body class="relative overflow-hidden h-full">
+    <div class="relative z-10 text-black top-2 left-4">
       <div class="flex items-center justify-center">
         <a href="/" class="logo">
-          <img class="md:h-16 md:w-16 w-32 h-32 mr-2" src="../assets/logo_black_square.svg">
+          <img
+            class="md:h-16 md:w-16 w-32 h-32 mr-2"
+            src="../assets/logo_black_square.svg"
+          />
         </a>
       </div>
-  </div>
-  <div class="z-10 relative text-black top-2 right-4 mb-4 text-center md:text-right">
-    <div class="inline-flex">
-      <router-link to="/outdoor">
-        <h4 class="px-6">outdoor</h4>
-      </router-link>
-      <router-link to="/people">
-        <h4 class="px-6">people</h4>
-      </router-link>
-      <router-link to="/about">
-        <h4 class="px-6">me</h4>
-      </router-link>
     </div>
-  </div>
-  <div class="mt-10 mx-4 md:mx-60">
-
-<!--first block-->
-    <div class="flex flex-col md:flex-row md:justify-center">
-      <img class="md:m-4 w-full md:w-96 flex h-fit reveal-left" src="../assets/outdoor/IMG_1139.jpg">
-      <div class="flex md:m-4">
-        <div class="flex flex-col">
-          <div class="md:mt-4 md:mb-4 mt-8 mb-12 ml-4 mr-4">
-            <img class="rotate-90 md:transform-none md:pt-10 flex w-8 h-fit align-left" src="../assets/icons/arrow_left.svg">
-            <div class="reveal-right">
-              <p class="pt-10 flex text-left text-lg font-bold">hochjoch klettersteig</p>
-              <p class="flex text-left">unter den steinböcken</p>
-              <div class="flex mt-4 text-left text-xs">
-              <div class="flex-row mr-4">
-                <p class="font-bold">ISO</p>
-                <p>100</p>
-              </div>
-              <div class="flex-row mr-4">
-                <p class="font-bold">SHUTTER</p>
-                <p>1/1000</p>
-              </div>
-              <div class="flex-row mr-4">
-                <p class="font-bold">APERTURE</p>
-                <p>f/5</p>
+    <div class="z-10 relative my-6 text-black top-2 right-4 text-center">
+      <div class="inline-flex">
+        <router-link to="/outdoor">
+          <h4 class="px-6">outdoor</h4>
+        </router-link>
+        <router-link to="/people">
+          <h4 class="px-6">people</h4>
+        </router-link>
+        <router-link to="/about">
+          <h4 class="px-6">me</h4>
+        </router-link>
+      </div>
+    </div>
+    <div class="mt-10 mx-4 md:mx-60">
+      <!--first block-->
+      <div class="flex flex-col md:flex-row md:justify-center">
+        <img
+          class="md:m-4 w-full md:w-96 flex h-fit reveal-left"
+          src="../assets/outdoor/IMG_1139.jpg"
+        />
+        <div class="flex md:m-4">
+          <div class="flex flex-col">
+            <div class="image-block">
+              <img
+                class="rotate-90 md:transform-none md:pt-10 flex w-8 h-fit align-left"
+                src="../assets/icons/arrow_left.svg"
+              />
+              <div class="reveal-right">
+                <p class="pt-10 flex text-left text-lg font-bold">
+                  hochjoch klettersteig
+                </p>
+                <p class="flex text-left">unter den steinböcken</p>
+                <div class="flex mt-4 text-left text-xs">
+                  <div class="flex-row mr-4">
+                    <p class="font-bold">ISO</p>
+                    <p>100</p>
+                  </div>
+                  <div class="flex-row mr-4">
+                    <p class="font-bold">SHUTTER</p>
+                    <p>1/400</p>
+                  </div>
+                  <div class="flex-row mr-4">
+                    <p class="font-bold">APERTURE</p>
+                    <p>f/5</p>
+                  </div>
+                </div>
               </div>
             </div>
+            <img
+              class="flex mt-auto w-full md:w-96 h-fit reveal-right"
+              src="../assets/outdoor/IMG_1194.jpg"
+            />
           </div>
-    </div>
-  <img class="flex mt-auto w-full md:w-96 h-fit reveal-right" src="../assets/outdoor/IMG_1194.jpg">
-
-</div>
-</div>
-</div>
-<img class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit" src="../assets/outdoor/IMG_1178.jpg">
-<!--second block-->
-<div class="flex flex-col md:flex-row md:justify-center">
-  
-      <div class="flex md:m-4">
-        <div class="flex flex-col">
-          <div class="md:mt-4 md:mb-4 mt-8 mb-12 ml-4 mr-4">
-            <img class="rotate-90 md:transform-none md:pt-10 flex w-8 h-fit align-right" src="../assets/icons/arrow_right.svg">
-            <div class="reveal-left">
-              <p class="pt-10 flex text-left text-lg font-bold">bregenzerwald</p>
-              <p class="flex text-left">zutrauliche murmeltiere</p>
-              <div class="flex mt-4 text-left text-xs">
-              <div class="flex-row mr-4">
-                <p class="font-bold">ISO</p>
-                <p>100</p>
-              </div>
-              <div class="flex-row mr-4">
-                <p class="font-bold">SHUTTER</p>
-                <p>1/1000</p>
-              </div>
-              <div class="flex-row mr-4">
-                <p class="font-bold">APERTURE</p>
-                <p>f/5</p>
+        </div>
+      </div>
+      <img
+        class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
+        src="../assets/outdoor/IMG_1178.jpg"
+      />
+      <!--second block-->
+      <div class="flex flex-col md:flex-row md:justify-center">
+        <div class="flex md:m-4">
+          <div class="flex flex-col">
+            <div class="image-block">
+              <img
+                class="rotate-90 md:transform-none md:pt-10 flex w-8 h-fit align-right"
+                src="../assets/icons/arrow_right.svg"
+              />
+              <div class="reveal-left">
+                <p class="pt-10 flex text-left text-lg font-bold">
+                  bregenzerwald
+                </p>
+                <p class="flex text-left">zutrauliche murmeltiere</p>
+                <div class="flex mt-4 text-left text-xs">
+                  <div class="flex-row mr-4">
+                    <p class="font-bold">ISO</p>
+                    <p>100</p>
+                  </div>
+                  <div class="flex-row mr-4">
+                    <p class="font-bold">SHUTTER</p>
+                    <p>1/250</p>
+                  </div>
+                  <div class="flex-row mr-4">
+                    <p class="font-bold">APERTURE</p>
+                    <p>f/6.3</p>
+                  </div>
+                </div>
               </div>
             </div>
+            <img
+              class="flex mb-4 md:mb-0 md:mt-auto w-full md:w-96 h-fit reveal-left"
+              src="../assets/outdoor/image22.jpg"
+            />
           </div>
-    </div>
-  <img class="flex mt-auto w-full md:w-96 h-fit reveal-left" src="../assets/outdoor/image22.jpg">
+        </div>
+        <img
+          class="md:m-4 w-full md:w-96 flex h-fit reveal-right"
+          src="../assets/outdoor/IMG_9820.jpg"
+        />
+      </div>
+      <img
+        class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
+        src="../assets/outdoor/image20.jpg"
+      />
 
-</div>
-</div>
-<img class="md:m-4 w-full md:w-96 flex h-fit reveal-right" src="../assets/outdoor/IMG_9820.jpg">
-</div>
-<img class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit" src="../assets/outdoor/image20.jpg">">
-
-<!--third block-->
-<div class="flex flex-col md:flex-row md:justify-center">
-      <img class="md:m-4 w-full md:w-96 flex h-fit reveal-left" src="../assets/outdoor/image05.jpg">
-      <div class="flex md:m-4">
-        <div class="flex flex-col">
-          <div class="md:mt-4 md:mb-4 mt-8 mb-12 ml-4 mr-4">
-            <img class="rotate-90 md:transform-none md:pt-10 flex w-8 h-fit align-left" src="../assets/icons/arrow_left.svg">
-            <div class="reveal-right">
-              <p class="pt-10 flex text-left text-lg font-bold">das neunte bundesland</p>
-              <p class="flex text-left">erster besuch im burgenland</p>
-              <div class="flex mt-4 text-left text-xs">
-              <div class="flex-row mr-4">
-                <p class="font-bold">ISO</p>
-                <p>100</p>
-              </div>
-              <div class="flex-row mr-4">
-                <p class="font-bold">SHUTTER</p>
-                <p>1/1000</p>
-              </div>
-              <div class="flex-row mr-4">
-                <p class="font-bold">APERTURE</p>
-                <p>f/5</p>
+      <!--third block-->
+      <div class="flex flex-col md:flex-row md:justify-center">
+        <img
+          class="md:m-4 w-full md:w-96 flex h-fit reveal-left"
+          src="../assets/outdoor/image05.jpg"
+        />
+        <div class="flex md:m-4">
+          <div class="flex flex-col">
+            <div class="image-block">
+              <img
+                class="rotate-90 md:transform-none md:pt-10 flex w-8 h-fit align-left"
+                src="../assets/icons/arrow_left.svg"
+              />
+              <div class="reveal-right">
+                <p class="pt-10 flex text-left text-lg font-bold">
+                  das neunte bundesland
+                </p>
+                <p class="flex text-left">erster besuch im burgenland</p>
+                <div class="flex mt-4 text-left text-xs">
+                  <div class="flex-row mr-4">
+                    <p class="font-bold">ISO</p>
+                    <p>100</p>
+                  </div>
+                  <div class="flex-row mr-4">
+                    <p class="font-bold">SHUTTER</p>
+                    <p>1/1600</p>
+                  </div>
+                  <div class="flex-row mr-4">
+                    <p class="font-bold">APERTURE</p>
+                    <p>f/1.8</p>
+                  </div>
+                </div>
               </div>
             </div>
+            <img
+              class="flex mt-auto w-full md:w-96 h-fit reveal-right"
+              src="../assets/outdoor/image04.jpg"
+            />
           </div>
+        </div>
+      </div>
+      <img
+        class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
+        src="../assets/outdoor/image13.jpg"
+      />
     </div>
-  <img class="flex mt-auto w-full md:w-96 h-fit reveal-right" src="../assets/outdoor/image04.jpg">
-
-</div>
-</div>
-</div>
-<img class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit" src="../assets/outdoor/image13.jpg">
-
-</div>
-</body>
+  </body>
 </template>
 
 <style scoped>
-.reveal-right{
+.reveal-right {
   position: relative;
   transform: translateX(500px);
   opacity: 0;
   transition: 1s all ease;
 }
-.reveal-right.active{
+.reveal-right.active {
   transform: translateX(0);
   opacity: 1;
 }
-.reveal-left{
+.reveal-left {
   position: relative;
   transform: translateX(-500px);
   opacity: 0;
   transition: 1s all ease;
 }
-.reveal-left.active{
+.reveal-left.active {
   transform: translateX(0);
   opacity: 1;
 }
-.reveal{
+.reveal {
   position: relative;
   transform: translateY(150px);
   opacity: 0;
   transition: 1.5s all ease;
 }
-.reveal.active{
+.reveal.active {
   transform: translateY(0);
   opacity: 1;
 }
