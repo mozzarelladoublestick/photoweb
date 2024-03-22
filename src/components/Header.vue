@@ -40,7 +40,7 @@ export default {
 <template>
   <div class="around">
     <div class="swiper-container relative">
-      <div class="absolute top-2 left-4 z-50">
+      <div class="absolute top-0 md:top-2 left-4 z-50">
         <div class="flex items-center justify-center">
           <a href="/" class="logo">
             <img
@@ -51,7 +51,7 @@ export default {
         </div>
       </div>
       <div
-        class="absolute top-2 right-4 mb-4 text-center text-white md:text-right z-50"
+        class="absolute inset-1/4 left-10 md:left-0 md:top-2 right-4 mb-4 text-center text-white md:text-right z-50"
       >
         <div class="inline-flex">
           <router-link to="/outdoor">
@@ -76,7 +76,7 @@ export default {
             <h1>Up & Up</h1>
             <div class="inline-flex items-center">
               <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
-              <a href="/outdoor" class="text-sm font-light link"
+              <a href="/outdoor" class="text-lg !text-left font-light link"
                 >explore my outdoor photography</a
               >
             </div>
@@ -109,7 +109,7 @@ export default {
             <h1>Winter Love</h1>
             <div class="inline-flex items-center">
               <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
-              <a href="/people" class="text-sm font-light link"
+              <a href="/people" class="text-sm !text-left font-light link"
                 >explore my people photography</a
               >
             </div>
@@ -145,7 +145,7 @@ export default {
             <h1>Kings of the Alps</h1>
             <div class="inline-flex items-center">
               <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
-              <a href="/outdoor" class="text-sm font-light link"
+              <a href="/outdoor" class="text-sm !text-left font-light link"
                 >explore my outdoor photography</a
               >
             </div>
@@ -178,7 +178,7 @@ export default {
             <h1>Awkward Friend Fotoshoot</h1>
             <div class="inline-flex items-center">
               <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
-              <a href="/outdoor" class="text-sm font-light link"
+              <a href="/outdoor" class="text-sm !text-left font-light link"
                 >explore my outdoor photography</a
               >
             </div>
@@ -211,7 +211,7 @@ export default {
             <h1>The Last Rays</h1>
             <div class="inline-flex items-center">
               <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
-              <a href="/outdoor" class="text-sm font-light link"
+              <a href="/outdoor" class="text-sm !text-left font-light link"
                 >explore my outdoor photography</a
               >
             </div>

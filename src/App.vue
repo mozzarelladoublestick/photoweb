@@ -42,6 +42,9 @@ onUnmounted(() => {
 </script>
 
 <template>
+  <header>
+    <meta name="color-scheme" content="light only" />
+  </header>
   <div class="flex items-center justify-center"></div>
   <router-view></router-view>
 </template>
