@@ -31,7 +31,7 @@ onMounted(() => {
           <h4 class="px-6">people</h4>
         </router-link>
         <router-link to="/about">
-          <h4 class="px-6">me</h4>
+          <h4 class="px-6">about</h4>
         </router-link>
       </div>
     </div>
