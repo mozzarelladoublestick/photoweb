@@ -35,7 +35,7 @@
     <div class="flex flex-col items-center justify-center">
       <h1 class="text-center py-4">sarah wechselberger</h1>
       <div class="h3 mx-4 md:mx-0 max-w-xl text-md md:text-lg text-center">
-        hallo, freut mich, dass du auf meiner seite gelandet bis!<br />ich bin
+        hallo, freut mich, dass du auf meiner seite gelandet bist!<br />ich bin
         (noch) studentin, momentan in der softwareentwicklung tätig und
         fotografiere gerne nebenbei :)<br />ich bin ursprünglich aus vorarlberg,
         wohne aber in linz und fotografiere gerne hier in meiner gegend.
