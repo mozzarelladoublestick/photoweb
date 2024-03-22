@@ -27,7 +27,10 @@
     </div>
     <h1 id="about" class="text-center"></h1>
     <div class="pt-2 flex justify-center">
-      <img src="../assets/about/IMG_3730.jpg" class="w-64 h-64 rounded-full" />
+      <img
+        src="../assets/about/IMG_3730.jpg"
+        class="w-48 md:w-64 h-48 md:h-64 rounded-full"
+      />
     </div>
     <div class="flex flex-col items-center justify-center">
       <h1 class="text-center py-4">sarah wechselberger</h1>
@@ -42,7 +45,7 @@
       >
         würde mich sehr freuen, von dir zu hören!
       </div>
-      <div class="flex">
+      <div class="flex mb-24">
         <a href="https://www.instagram.com/sarahwframes/" class="logo">
           <img class="h-8 w-8 m-3.5" src="../assets/icons/instagram.svg" />
         </a>
@@ -50,6 +53,7 @@
           <img class="h-7 m-4" src="../assets/icons/mail.svg" />
         </a>
       </div>
+      <div>&copy; All Rights Reserved Sarah Wechselberger 2024</div>
     </div>
   </body>
 </template>

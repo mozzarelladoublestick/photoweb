@@ -72,7 +72,7 @@ onMounted(() => {
             </div>
             <img
               class="flex mt-auto w-full md:w-96 h-fit reveal-right"
-              src="../assets/people/IMG_2297.jpg"
+              src="../assets/people/IMG_3590.jpg"
             />
           </div>
         </div>
@@ -82,6 +82,7 @@ onMounted(() => {
         src="../assets/people/image07.jpg"
       />
       <!--second block-->
+
       <div class="flex flex-col md:flex-row md:justify-center">
         <div class="flex md:m-4">
           <div class="flex flex-col">
@@ -92,9 +93,9 @@ onMounted(() => {
               />
               <div class="reveal-left">
                 <p class="pt-10 flex text-left text-lg font-bold">
-                  ganz hoch oben
+                  linzer sommer
                 </p>
-                <p class="flex text-left">in den vorarlberger bergen</p>
+                <p class="flex text-left">verregnetes grillen</p>
                 <div class="flex mt-4 text-left text-xs">
                   <div class="flex-row mr-4">
                     <p class="font-bold">ISO</p>
@@ -102,7 +103,7 @@ onMounted(() => {
                   </div>
                   <div class="flex-row mr-4">
                     <p class="font-bold">SHUTTER</p>
-                    <p>1/4000</p>
+                    <p>1/250</p>
                   </div>
                   <div class="flex-row mr-4">
                     <p class="font-bold">APERTURE</p>
@@ -113,18 +114,18 @@ onMounted(() => {
             </div>
             <img
               class="flex mb-4 md:mb-0 md:mt-auto w-full md:w-96 h-fit reveal-left"
-              src="../assets/people/IMG_3252.jpg"
+              src="../assets/people/IMG_9445.jpg"
             />
           </div>
         </div>
         <img
           class="md:m-4 w-full md:w-96 flex h-fit reveal-right"
-          src="../assets/people/IMG_3232.jpg"
+          src="../assets/people/IMG_9307.jpg"
         />
       </div>
       <img
         class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
-        src="../assets/people/image02.jpg"
+        src="../assets/people/IMG_9546.jpg"
       />
 
       <!--third block-->
@@ -173,6 +174,50 @@ onMounted(() => {
         src="../assets/people/IMG_6837.jpg"
       />
     </div>
+    <div class="flex flex-col md:flex-row md:justify-center">
+      <div class="flex md:m-4">
+        <div class="flex flex-col">
+          <div class="image-block">
+            <img
+              class="rotate-90 md:transform-none md:pt-10 flex w-8 h-fit align-right"
+              src="../assets/icons/arrow_right.svg"
+            />
+            <div class="reveal-left">
+              <p class="pt-10 flex text-left text-lg font-bold">
+                ganz hoch oben
+              </p>
+              <p class="flex text-left">in den vorarlberger bergen</p>
+              <div class="flex mt-4 text-left text-xs">
+                <div class="flex-row mr-4">
+                  <p class="font-bold">ISO</p>
+                  <p>100</p>
+                </div>
+                <div class="flex-row mr-4">
+                  <p class="font-bold">SHUTTER</p>
+                  <p>1/4000</p>
+                </div>
+                <div class="flex-row mr-4">
+                  <p class="font-bold">APERTURE</p>
+                  <p>f/1.8</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            class="flex mb-4 md:mb-0 md:mt-auto w-full md:w-96 h-fit reveal-left"
+            src="../assets/people/IMG_3252.jpg"
+          />
+        </div>
+      </div>
+      <img
+        class="md:m-4 w-full md:w-96 flex h-fit reveal-right"
+        src="../assets/people/IMG_3232.jpg"
+      />
+    </div>
+    <img
+      class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
+      src="../assets/people/image02.jpg"
+    />
   </body>
 </template>
 

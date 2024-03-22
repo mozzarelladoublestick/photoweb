@@ -1,5 +1,6 @@
-<script setup>
+<script>
 import Header from "./components/Header.vue";
+import Menu from "./components/Menu.vue";
 import ImageGallery from "./components/ImageGallery.vue";
 import About from "./components/About.vue";
 import Contact from "./components/Contact.vue";
@@ -7,6 +8,13 @@ import router from "./router";
 
 import { ref, onMounted, onUnmounted } from "vue";
 
+export default {
+  name: "app",
+  components: {
+    Header,
+    Menu,
+  },
+};
 /*
 const cursor = ref(null);
 const smallCursor = ref(null);
@@ -50,38 +58,6 @@ onUnmounted(() => {
 </template>
 
 <style scoped>
-.custom-cursor {
-  width: 20px;
-  height: 20px;
-  border: 1px solid #727272; /* Change the border color */
-  border-radius: 50%;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  pointer-events: none; /* Ensure the cursor does not interfere with content */
-  transition: all 0.1s ease;
-  z-index: 10;
-}
-.small-cursor {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #747474; /* Change to the desired background color */
-  transition: all 0.1s ease-in; /* Add transition for smooth size change */
-}
-
-.small-cursor.active {
-  width: 12px; /* Increase the size when active */
-  height: 12px;
-  background-color: #ffffff52;
-}
-a {
-  cursor: none;
-}
-
 .router-link-active {
   cursor: none;
 }

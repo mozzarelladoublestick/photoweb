@@ -1,5 +1,6 @@
 <script>
 // core version + navigation, pagination modules:
+import Menu from "./Menu.vue";
 import Swiper from "swiper";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 Swiper.use([Navigation]);
@@ -9,6 +10,11 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 export default {
+  data() {
+    return {
+      isMenuVisible: false,
+    };
+  },
   mounted() {
     this.initSwiper();
   },
@@ -33,11 +39,40 @@ export default {
         },
       });
     },
+    toggleMenu() {
+      if (!this.isMenuVisible) this.isMenuVisible = true;
+      else this.isMenuVisible = false;
+    },
   },
 };
 </script>
 
 <template>
+  <div
+    v-show="this.isMenuVisible"
+    class="absolute top-0 right-0 w-screen h-screen z-20 bg-white"
+  >
+    <div class="flex flex-col items-center justify-center">
+      <a href="/" class="logo">
+        <img
+          class="md:h-16 md:w-16 w-32 h-32 mb-24"
+          src="../assets/logo_black_square.svg"
+        />
+      </a>
+      <div class="flex flex-col">
+        <router-link to="/outdoor">
+          <h4 class="px-6">outdoor</h4>
+        </router-link>
+        <router-link to="/people">
+          <h4 class="px-6">people</h4>
+        </router-link>
+        <router-link to="/about">
+          <h4 class="px-6 mb-24">about</h4>
+        </router-link>
+        <div>&copy; All Rights Reserved Sarah Wechselberger 2024</div>
+      </div>
+    </div>
+  </div>
   <div class="around">
     <div class="swiper-container relative">
       <div class="absolute top-0 md:top-2 left-4 z-50">
@@ -51,7 +86,7 @@ export default {
         </div>
       </div>
       <div
-        class="absolute inset-1/4 left-10 md:left-0 md:top-2 right-4 mb-4 text-center text-white md:text-right z-50"
+        class="hidden md:block absolute left-10 md:left-0 md:top-2 right-4 mb-4 text-center text-white md:text-right z-50"
       >
         <div class="inline-flex">
           <router-link to="/outdoor">
@@ -61,11 +96,22 @@ export default {
             <h4 class="px-6">people</h4>
           </router-link>
           <router-link to="/about">
-            <h4 class="px-6">me</h4>
+            <h4 class="px-6">about</h4>
           </router-link>
         </div>
       </div>
-
+      <img
+        v-show="!this.isMenuVisible"
+        @click="toggleMenu()"
+        class="block md:hidden absolute top-0 right-0 z-50 w-8 h-8 m-4"
+        src="../assets/icons/menu.svg"
+      />
+      <img
+        v-show="this.isMenuVisible"
+        @click="toggleMenu()"
+        class="block md:hidden absolute top-0 right-0 z-50 w-8 h-8 m-4"
+        src="../assets/icons/close.svg"
+      />
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <img class="swiper-img" src="../assets/cover/mountain_hochjoch.jpg" />
@@ -239,8 +285,8 @@ export default {
       <!-- Add Pagination -->
       <div class="swiper-pagination"></div>
 
-      <span class="swiper-button-prev"></span
-      ><span class="swiper-button-next"></span>
+      <span class="swiper-button-prev"></span>
+      <span class="swiper-button-next"></span>
     </div>
   </div>
 </template>
@@ -263,13 +309,14 @@ html {
 }
 
 :global(.swiper-button-next) {
+  cursor: pointer;
   color: white;
-  scale: 0.3;
+  scale: 0.5;
 }
 
 :global(.swiper-button-prev) {
   color: white;
-  scale: 0.3;
+  scale: 0.5;
 }
 
 .swiper-img {
