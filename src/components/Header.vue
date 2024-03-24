@@ -216,7 +216,7 @@ export default {
           </div>
         </div>
         <div class="swiper-slide">
-          <img class="swiper-img" src="../assets/people/IMG_5102.jpg" />
+          <img class="swiper-img" src="../assets/people/IMG_5080.jpg" />
           <div
             class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
           >
@@ -239,7 +239,7 @@ export default {
               </div>
               <div class="flex-row mx-4 md:mx-10">
                 <p class="font-bold">SHUTTER</p>
-                <p>1/500</p>
+                <p>1/250</p>
               </div>
               <div class="flex-row mx-4 md:mx-10">
                 <p class="font-bold">APERTURE</p>
