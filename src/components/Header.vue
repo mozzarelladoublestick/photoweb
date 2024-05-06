@@ -147,6 +147,39 @@ export default {
           </div>
         </div>
         <div class="swiper-slide">
+          <img class="swiper-img" src="../assets/people/IMG_6524.jpg" />
+          <div
+            class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
+          >
+            <h3>ATTERSEE, UPPER AUSTRIA</h3>
+            <h1>Sunset Love</h1>
+            <div class="inline-flex items-center">
+              <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
+              <a href="/people" class="text-lg !text-left font-light link"
+                >explore my people photography</a
+              >
+            </div>
+          </div>
+          <div
+            class="absolute text-white bottom-2 left-14 md:left-auto md:right-4"
+          >
+            <div class="flex m-2 md:m-4 mb-24 md:mb-6 text-xs">
+              <div class="flex-row mx-4 md:mx-10">
+                <p class="font-bold">ISO</p>
+                <p>100</p>
+              </div>
+              <div class="flex-row mx-4 md:mx-10">
+                <p class="font-bold">SHUTTER</p>
+                <p>1/1000</p>
+              </div>
+              <div class="flex-row mx-4 md:mx-10">
+                <p class="font-bold">APERTURE</p>
+                <p>f/1.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
           <img class="swiper-img" src="../assets/cover/IMG_3509.jpg" />
           <div
             class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
@@ -244,39 +277,6 @@ export default {
               <div class="flex-row mx-4 md:mx-10">
                 <p class="font-bold">APERTURE</p>
                 <p>f/1.8</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <img class="swiper-img" src="../assets/cover/IMG_3880.jpg" />
-          <div
-            class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
-          >
-            <h3>HAGENBERG, UPPER AUSTRIA</h3>
-            <h1>Awkward Friend Fotoshoot</h1>
-            <div class="inline-flex items-center">
-              <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
-              <a href="/people" class="text-lg !text-left font-light link"
-                >explore my people photography</a
-              >
-            </div>
-          </div>
-          <div
-            class="absolute text-white bottom-2 left-14 md:left-auto md:right-4"
-          >
-            <div class="flex m-2 md:m-4 mb-24 md:mb-6 text-xs">
-              <div class="flex-row mx-4 md:mx-10">
-                <p class="font-bold">ISO</p>
-                <p>100</p>
-              </div>
-              <div class="flex-row mx-4 md:mx-10">
-                <p class="font-bold">SHUTTER</p>
-                <p>1/320</p>
-              </div>
-              <div class="flex-row mx-4 md:mx-10">
-                <p class="font-bold">APERTURE</p>
-                <p>f/4</p>
               </div>
             </div>
           </div>
