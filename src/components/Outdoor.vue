@@ -3,6 +3,8 @@ import Navbar from "./Navbar.vue";
 
 import { ref, onMounted } from "vue";
 import { reveal } from "../scripts/Outdoor";
+import BlockRight from "./BlockRight.vue";
+import BlockLeft from "./BlockLeft.vue";
 onMounted(() => {
   // To check the scroll position on page load
   window.addEventListener("scroll", reveal);
@@ -37,141 +39,39 @@ onMounted(() => {
     </div>
     <div class="mt-10 mx-4 md:mx-60">
       <!--first block-->
-      <div class="flex flex-col md:flex-row md:justify-center">
-        <img
-          class="md:m-4 w-full md:w-96 flex h-fit reveal-left"
-          src="../assets/outdoor/IMG_1139.jpg"
-        />
-        <div class="flex md:m-4">
-          <div class="flex flex-col">
-            <div class="image-block">
-              <img
-                class="rotate-90 md:transform-none md:pt-10 flex w-8 h-fit align-left"
-                src="../assets/icons/arrow_left.svg"
-              />
-              <div class="reveal-right">
-                <p class="pt-10 flex text-left text-lg font-bold">
-                  hochjoch klettersteig
-                </p>
-                <p class="flex text-left">unter den steinböcken</p>
-                <div class="flex mt-4 text-left text-xs">
-                  <div class="flex-row mr-4">
-                    <p class="font-bold">ISO</p>
-                    <p>100</p>
-                  </div>
-                  <div class="flex-row mr-4">
-                    <p class="font-bold">SHUTTER</p>
-                    <p>1/400</p>
-                  </div>
-                  <div class="flex-row mr-4">
-                    <p class="font-bold">APERTURE</p>
-                    <p>f/5</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <img
-              class="flex mt-auto w-full md:w-96 h-fit reveal-right"
-              src="../assets/outdoor/IMG_1194.jpg"
-            />
-          </div>
-        </div>
-      </div>
-      <img
-        class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
-        src="../assets/outdoor/IMG_1178.jpg"
-      />
+      <BlockRight
+        img01="src/assets/outdoor/IMG_1139.jpg"
+        img02="src/assets/outdoor/IMG_1194.jpg"
+        img03="src/assets/outdoor/IMG_1178.jpg"
+        caption="hochjoch klettersteig"
+        subcaption="unter den steinböcken"
+        iso="100"
+        shutter="1/400"
+        arpeture="f/5"
+      ></BlockRight>
       <!--second block-->
-      <div class="flex flex-col md:flex-row md:justify-center">
-        <div class="flex md:m-4">
-          <div class="flex flex-col">
-            <div class="image-block">
-              <img
-                class="rotate-90 md:transform-none md:pt-10 flex w-8 h-fit align-right"
-                src="../assets/icons/arrow_right.svg"
-              />
-              <div class="reveal-left">
-                <p class="pt-10 flex text-left text-lg font-bold">
-                  bregenzerwald
-                </p>
-                <p class="flex text-left">zutrauliche murmeltiere</p>
-                <div class="flex mt-4 text-left text-xs">
-                  <div class="flex-row mr-4">
-                    <p class="font-bold">ISO</p>
-                    <p>100</p>
-                  </div>
-                  <div class="flex-row mr-4">
-                    <p class="font-bold">SHUTTER</p>
-                    <p>1/250</p>
-                  </div>
-                  <div class="flex-row mr-4">
-                    <p class="font-bold">APERTURE</p>
-                    <p>f/6.3</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <img
-              class="flex mb-4 md:mb-0 md:mt-auto w-full md:w-96 h-fit reveal-left"
-              src="../assets/outdoor/image22.jpg"
-            />
-          </div>
-        </div>
-        <img
-          class="md:m-4 w-full md:w-96 flex h-fit reveal-right"
-          src="../assets/outdoor/IMG_9820.jpg"
-        />
-      </div>
-      <img
-        class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
-        src="../assets/outdoor/image20.jpg"
-      />
-
+      <BlockLeft
+        img01="src/assets/outdoor/image22.jpg"
+        img02="src/assets/outdoor/IMG_9820.jpg"
+        img03="src/assets/outdoor/image20.jpg"
+        caption="bregenzerwald"
+        subcaption="zutrauliche murmile"
+        iso="100"
+        shutter="1/250"
+        arpeture="f/6.3"
+      >
+      </BlockLeft>
+      <BlockRight
+        img01="src/assets/outdoor/image05.jpg"
+        img02="src/assets/outdoor/image04.jpg"
+        img03="src/assets/outdoor/image13.jpg"
+        caption="das neunte bundesland"
+        subcaption="erster besuch im burgenland"
+        iso="100"
+        shutter="1/600"
+        arpeture="f/1.8"
+      ></BlockRight>
       <!--third block-->
-      <div class="flex flex-col md:flex-row md:justify-center">
-        <img
-          class="md:m-4 w-full md:w-96 flex h-fit reveal-left"
-          src="../assets/outdoor/image05.jpg"
-        />
-        <div class="flex md:m-4">
-          <div class="flex flex-col">
-            <div class="image-block">
-              <img
-                class="rotate-90 md:transform-none md:pt-10 flex w-8 h-fit align-left"
-                src="../assets/icons/arrow_left.svg"
-              />
-              <div class="reveal-right">
-                <p class="pt-10 flex text-left text-lg font-bold">
-                  das neunte bundesland
-                </p>
-                <p class="flex text-left">erster besuch im burgenland</p>
-                <div class="flex mt-4 text-left text-xs">
-                  <div class="flex-row mr-4">
-                    <p class="font-bold">ISO</p>
-                    <p>100</p>
-                  </div>
-                  <div class="flex-row mr-4">
-                    <p class="font-bold">SHUTTER</p>
-                    <p>1/1600</p>
-                  </div>
-                  <div class="flex-row mr-4">
-                    <p class="font-bold">APERTURE</p>
-                    <p>f/1.8</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <img
-              class="flex mt-auto w-full md:w-96 h-fit reveal-right"
-              src="../assets/outdoor/image04.jpg"
-            />
-          </div>
-        </div>
-      </div>
-      <img
-        class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
-        src="../assets/outdoor/image13.jpg"
-      />
     </div>
   </body>
 </template>

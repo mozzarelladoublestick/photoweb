@@ -45,11 +45,11 @@
       >
         würde mich sehr freuen, von dir zu hören!
       </div>
-      <div class="flex mb-24">
+      <div class="flex mt-24">
         <a href="https://www.instagram.com/sarahwframes/" class="logo">
           <img class="h-8 w-8 m-3.5" src="../assets/icons/instagram.svg" />
         </a>
-        <a href="mailto:sarah.wechselberger@vol.at" class="logo">
+        <a href="mailto:sarah.wechselberger@vol.at" class="text-white">
           <img class="h-7 m-4" src="../assets/icons/mail.svg" />
         </a>
       </div>
