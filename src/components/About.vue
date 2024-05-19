@@ -80,7 +80,7 @@ import Imprint from "./Imprint.vue";
           >
           Ich würde mich sehr freuen von dir zu hören!
         </div>
-        <div class="flex mt-4">
+        <div class="flex mt-4 flex-col lg:flex-row">
           <a
             href="https://www.instagram.com/sarahwframes/"
             class="flex items-center"
@@ -95,7 +95,7 @@ import Imprint from "./Imprint.vue";
             href="mailto:hello@sarahwechselberger.at"
             class="flex items-center"
           >
-            <img class="h-5 m-4 mr-1" src="../assets/icons/mail.svg" />
+            <img class="h-5 my-4 mr-1" src="../assets/icons/mail.svg" />
             <p>hello@sarahwechselberger.at</p>
           </a>
         </div>

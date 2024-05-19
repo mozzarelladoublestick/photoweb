@@ -38,7 +38,7 @@ onMounted(() => {
     </div>
     <div class="mt-10 mx-4 md:mx-60">
       <BlockLeft
-        img01="src/assets/people/IMG_6375.jpg"
+        img01="../assets/people/IMG_6375.jpg"
         img02="src/assets/people/IMG_6639.jpg"
         img03="src/assets/people/IMG_6528.jpg"
         caption="love at sunset"
@@ -104,36 +104,3 @@ onMounted(() => {
     </div>
   </body>
 </template>
-
-<style scoped>
-.reveal-right {
-  position: relative;
-  transform: translateX(500px);
-  opacity: 0;
-  transition: 1s all ease;
-}
-.reveal-right.active {
-  transform: translateX(0);
-  opacity: 1;
-}
-.reveal-left {
-  position: relative;
-  transform: translateX(-500px);
-  opacity: 0;
-  transition: 1s all ease;
-}
-.reveal-left.active {
-  transform: translateX(0);
-  opacity: 1;
-}
-.reveal {
-  position: relative;
-  transform: translateY(150px);
-  opacity: 0;
-  transition: 1.5s all ease;
-}
-.reveal.active {
-  transform: translateY(0);
-  opacity: 1;
-}
-</style>
