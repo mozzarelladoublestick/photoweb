@@ -2,7 +2,7 @@
 import Navbar from "./Navbar.vue";
 
 import { ref, onMounted } from "vue";
-import { reveal } from "/scripts/Outdoor";
+import { reveal } from "../scripts/Outdoor";
 import BlockRight from "./BlockRight.vue";
 import BlockLeft from "./BlockLeft.vue";
 onMounted(() => {
@@ -19,7 +19,7 @@ onMounted(() => {
         <a href="/" class="logo">
           <img
             class="md:h-16 md:w-16 w-32 h-32 mr-2"
-            src="/assets/logo_black_square.svg"
+            src="../assets/logo_black_square.svg"
           />
         </a>
       </div>
@@ -40,7 +40,7 @@ onMounted(() => {
     <div class="mt-10 mx-4 md:mx-60">
       <!--first block-->
       <BlockRight
-        img01="src/assets/outdoor/IMG_1139-2.jpg"
+        img01="src/assets/outdoor/IMG_1139.jpg"
         img02="src/assets/outdoor/IMG_1194.jpg"
         img03="src/assets/outdoor/IMG_1178.jpg"
         caption="hochjoch klettersteig"
