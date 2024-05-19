@@ -39,8 +39,8 @@ onMounted(() => {
     <div class="mt-10 mx-4 md:mx-60">
       <BlockLeft
         img01="../assets/people/IMG_6375.jpg"
-        img02="src/assets/people/IMG_6639.jpg"
-        img03="src/assets/people/IMG_6528.jpg"
+        img02="../assets/people/IMG_6639.jpg"
+        img03="../assets/people/IMG_6528.jpg"
         caption="love at sunset"
         subcaption="am schönen attersee"
         iso="100"
@@ -49,9 +49,9 @@ onMounted(() => {
       ></BlockLeft>
 
       <BlockRight
-        img01="assets/people/IMG_2288.jpg"
-        img02="/assets/people/IMG_3590.jpg"
-        img03="../assets/people/IMG_3444.jpg"
+        img01="src/assets/people/IMG_2288.jpg"
+        img02="src/assets/people/IMG_3590.jpg"
+        img03="src/assets/people/IMG_3444.jpg"
         caption="ein lachendes gesicht"
         subcaption="unterwegs in süddeutschland"
         iso="100"
