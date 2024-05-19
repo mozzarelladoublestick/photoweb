@@ -29,7 +29,7 @@ import Imprint from "./Imprint.vue";
     </div>
     <h1 id="about" class="text-left"></h1>
     <div
-      class="flex flex-col xl:flex-row gap-x-8 max-w-screen-2xl mx-auto justify-center pt-12 px-12 xl:px-36"
+      class="flex flex-col xl:flex-row gap-x-8 max-w-screen-2xl mx-auto justify-center pt-12 px-6 xl:px-36"
     >
       <div class="mx-auto grow xl:mx-0 pt-2 xl:w-1/2">
         <img

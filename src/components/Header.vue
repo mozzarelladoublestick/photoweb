@@ -2,6 +2,7 @@
 // core version + navigation, pagination modules:
 import Menu from "./Menu.vue";
 import Swiper from "swiper";
+import Imprint from "./Imprint.vue";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 Swiper.use([Navigation]);
 // Import Swiper styles
@@ -59,7 +60,7 @@ export default {
           src="../assets/logo_black_square.svg"
         />
       </a>
-      <div class="flex flex-col">
+      <div class="flex flex-col justify-center items-center">
         <router-link to="/outdoor">
           <h4 class="px-6">outdoor</h4>
         </router-link>
@@ -69,6 +70,12 @@ export default {
         <router-link to="/about">
           <h4 class="px-6 mb-24">about</h4>
         </router-link>
+        <h3>Impressum</h3>
+        <p>Sarah Wechselberger</p>
+        <p>Hyrtlstraße 17, 4020 Linz</p>
+        <a href="mailto:hello@sarahwechselberger.at" class="underline"
+          ><p>hello@sarahwechselberger.at</p></a
+        >
         <div>&copy; All Rights Reserved Sarah Wechselberger 2024</div>
       </div>
     </div>
