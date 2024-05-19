@@ -154,7 +154,7 @@ export default {
           </div>
         </div>
         <div class="swiper-slide">
-          <img class="swiper-img" src="../assets/people/IMG_6524.jpg" />
+          <img class="swiper-img" src="/public/people/IMG_6524.jpg" />
           <div
             class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
           >
@@ -256,7 +256,7 @@ export default {
           </div>
         </div>
         <div class="swiper-slide">
-          <img class="swiper-img" src="../assets/people/IMG_5080.jpg" />
+          <img class="swiper-img" src="/public/people/IMG_5080.jpg" />
           <div
             class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
           >
