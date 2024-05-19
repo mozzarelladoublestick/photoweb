@@ -3,7 +3,7 @@ import Navbar from "./Navbar.vue";
 import BlockRight from "./BlockRight.vue";
 import BlockLeft from "./BlockLeft.vue";
 import { ref, onMounted } from "vue";
-import { reveal } from "/scripts/Outdoor";
+import { reveal } from "../scripts/Outdoor";
 onMounted(() => {
   // To check the scroll position on page load
   window.addEventListener("scroll", reveal);
@@ -18,7 +18,7 @@ onMounted(() => {
         <a href="/" class="logo">
           <img
             class="md:h-16 md:w-16 w-32 h-32 mr-2"
-            src="/assets/logo_black_square.svg"
+            src="../assets/logo_black_square.svg"
           />
         </a>
       </div>
