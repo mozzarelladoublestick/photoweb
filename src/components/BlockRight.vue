@@ -40,6 +40,7 @@
     class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
     :src="img03"
   />
+  {{ img03 }}
 </template>
 
 <script>
