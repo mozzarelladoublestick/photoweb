@@ -28,7 +28,7 @@
         </div>
         <img
           class="flex mb-4 md:mb-0 md:mt-auto w-full md:w-96 h-fit reveal-left"
-          :src="img01"
+          :src="src"
         />
       </div>
     </div>
@@ -43,7 +43,7 @@
 <script>
 export default {
   props: {
-    img01: {
+    src: {
       type: String,
       required: true,
     },

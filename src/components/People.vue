@@ -38,7 +38,7 @@ onMounted(() => {
     </div>
     <div class="mt-10 mx-4 md:mx-60">
       <BlockLeft
-        img01="/public/people/IMG_6375.jpg"
+        src="/public/people/IMG_6375.jpg"
         img02="/public/people/IMG_6639.jpg"
         img03="/public/people/IMG_6528.jpg"
         caption="love at sunset"
