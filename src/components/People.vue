@@ -38,9 +38,9 @@ onMounted(() => {
     </div>
     <div class="mt-10 mx-4 md:mx-60">
       <BlockLeft
-        img01="/assets/people/IMG_6375.jpg"
-        img02="/assets/people/IMG_6639.jpg"
-        img03="/assets/people/IMG_6528.jpg"
+        img01="/public/people/IMG_6375.jpg"
+        img02="/public/people/IMG_6639.jpg"
+        img03="/public/people/IMG_6528.jpg"
         caption="love at sunset"
         subcaption="am schönen attersee"
         iso="100"
@@ -49,9 +49,9 @@ onMounted(() => {
       ></BlockLeft>
 
       <BlockRight
-        img01="/assets/people/IMG_2288.jpg"
-        img02="/assets/people/IMG_3590.jpg"
-        img03="/assets/people/IMG_3444.jpg"
+        img01="../public/people/IMG_2288.jpg"
+        img02="../public/people/IMG_3590.jpg"
+        img03="/public/people/IMG_3444.jpg"
         caption="ein lachendes gesicht"
         subcaption="unterwegs in süddeutschland"
         iso="100"
@@ -61,13 +61,13 @@ onMounted(() => {
 
       <img
         class="pt-4 reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
-        src="../assets/people/image07.jpg"
+        src="/public/people/image07.jpg"
       />
 
       <BlockLeft
-        img01="/assets/people/IMG_9445.jpg"
-        img02="/assets/people/IMG_9307.jpg"
-        img03="/assets/people/IMG_9546.jpg"
+        img01="/public/people/IMG_9445.jpg"
+        img02="/public/people/IMG_9307.jpg"
+        img03="/public/people/IMG_9546.jpg"
         caption="linzer sommer"
         subcaption="verregnetes grillen"
         iso="100"
@@ -77,13 +77,13 @@ onMounted(() => {
 
       <img
         class="pt-4 reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
-        src="../assets/people/IMG_5102.jpg"
+        src="../public/people/IMG_5102.jpg"
       />
 
       <BlockRight
-        img01="/assets/people/IMG_2611.jpg"
-        img02="/assets/people/IMG_2523.jpg"
-        img03="/assets/people/IMG_6837.jpg"
+        img01="/public/people/IMG_2611.jpg"
+        img02="/public/people/IMG_2523.jpg"
+        img03="/public/people/IMG_6837.jpg"
         caption="u-bahn gedanken"
         subcaption="herbstliche urlaubstage"
         iso="100"
@@ -92,9 +92,9 @@ onMounted(() => {
       ></BlockRight>
 
       <BlockLeft
-        img01="/assets/people/IMG_3252.jpg"
-        img02="/assets/people/IMG_3232.jpg"
-        img03="/assets/people/image02.jpg"
+        img01="/public/people/IMG_3252.jpg"
+        img02="/public/people/IMG_3232.jpg"
+        img03="/public/people/image02.jpg"
         caption="ganz hoch oben"
         subcaption="in den vorarlberger bergen"
         iso="100"
