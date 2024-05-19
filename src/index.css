@@ -7,6 +7,10 @@
 @import url("https://fonts.googleapis.com/css2??family=Playfair+Display:wght@400;500&display=swap&family=Homemade+Apple&family=Poppins:wght@300;500;600&family=Quicksand:wght@300;500;700&family=Work+Sans:wght@300;400;500;600;700&display=swap");
 
 h1 {
+  font-family: "Poppins";
+  @apply text-3xl md:text-5xl lg:text-6xl;
+}
+h2 {
   font-family: "Playfair Display", serif;
   font-size: 36px;
 }
@@ -23,4 +27,66 @@ p {
 }
 .image-block {
   @apply md:mt-4 md:mb-4 mt-8 mb-12 ml-4 mr-4;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 50%; /* Position the underline in the center horizontally */
+  transform: translateX(-50%);
+  bottom: -2px;
+  width: 0;
+  height: 1px;
+  background-color: white; /* Change to your desired underline color */
+  transition: width 0.3s ease; /* Adjust the animation duration and timing function as needed */
+}
+
+a:hover::after {
+  width: 30%;
+}
+.logo:hover::after {
+  width: 0;
+}
+
+@media (min-width: 768px) {
+  .header a {
+    display: flex;
+  }
+}
+
+.reveal-right {
+  position: relative;
+  transform: translateX(500px);
+  opacity: 0;
+  transition: 0.8s all ease;
+}
+.reveal-right.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+.reveal-left {
+  position: relative;
+  transform: translateX(-500px);
+  opacity: 0;
+  transition: 0.8s all ease;
+}
+.reveal-left.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+.reveal {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 0.8s all ease;
+}
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
 }

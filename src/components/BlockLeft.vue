@@ -41,8 +41,6 @@
 </template>
 
 <script>
-import { reveal } from "../scripts/Outdoor";
-
 export default {
   props: {
     img01: {

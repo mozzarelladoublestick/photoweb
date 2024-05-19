@@ -40,7 +40,7 @@ onMounted(() => {
     <div class="mt-10 mx-4 md:mx-60">
       <!--first block-->
       <BlockRight
-        img01="src/assets/outdoor/IMG_1139.jpg"
+        img01="src/assets/outdoor/IMG_1139-2.jpg"
         img02="src/assets/outdoor/IMG_1194.jpg"
         img03="src/assets/outdoor/IMG_1178.jpg"
         caption="hochjoch klettersteig"

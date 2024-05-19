@@ -119,7 +119,7 @@ export default {
             class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
           >
             <h3>MONTAFON, VORARLBERG</h3>
-            <h1>Up & Up</h1>
+            <h2>Up & Up</h2>
             <div class="inline-flex items-center">
               <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
               <a href="/outdoor" class="text-lg !text-left font-light link"
@@ -152,7 +152,7 @@ export default {
             class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
           >
             <h3>ATTERSEE, UPPER AUSTRIA</h3>
-            <h1>Sunset Love</h1>
+            <h2>Sunset Love</h2>
             <div class="inline-flex items-center">
               <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
               <a href="/people" class="text-lg !text-left font-light link"
@@ -185,7 +185,7 @@ export default {
             class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
           >
             <h3>UPPER AUSTRIA</h3>
-            <h1>Winter Love</h1>
+            <h2>Winter Love</h2>
             <div class="inline-flex items-center">
               <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
               <a href="/people" class="text-lg !text-left font-light link"
@@ -221,7 +221,7 @@ export default {
             class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
           >
             <h3>MONTAFON, VORARLBERG</h3>
-            <h1>Kings of the Alps</h1>
+            <h2>Kings of the Alps</h2>
             <div class="inline-flex items-center">
               <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
               <a href="/outdoor" class="text-lg !text-left font-light link"
@@ -254,7 +254,7 @@ export default {
             class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
           >
             <h3>LINZ, UPPER AUSTRIA</h3>
-            <h1>Let's celebrate!</h1>
+            <h2>Let's celebrate!</h2>
             <div class="inline-flex items-center">
               <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
               <a href="/people" class="text-lg !text-left font-light link"
@@ -287,7 +287,7 @@ export default {
             class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
           >
             <h3>BREGENZERWALD, VORARLBERG</h3>
-            <h1>The Last Rays</h1>
+            <h2>The Last Rays</h2>
             <div class="inline-flex items-center">
               <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
               <a href="/outdoor" class="text-lg !text-left font-light link"
@@ -376,34 +376,4 @@ html {
   display: block;
 }
 /* CSS code */
-a {
-  position: relative;
-  text-decoration: none;
-  text-align: center;
-}
-
-a::after {
-  content: "";
-  position: absolute;
-  left: 50%; /* Position the underline in the center horizontally */
-  transform: translateX(-50%);
-  bottom: -2px;
-  width: 0;
-  height: 1px;
-  background-color: white; /* Change to your desired underline color */
-  transition: width 0.3s ease; /* Adjust the animation duration and timing function as needed */
-}
-
-a:hover::after {
-  width: 30%;
-}
-.logo:hover::after {
-  width: 0;
-}
-
-@media (min-width: 768px) {
-  .header a {
-    display: flex;
-  }
-}
 </style>
