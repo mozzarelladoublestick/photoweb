@@ -40,9 +40,9 @@ onMounted(() => {
     <div class="mt-10 mx-4 md:mx-60">
       <!--first block-->
       <BlockRight
-        img01="src/assets/outdoor/IMG_1139.jpg"
-        img02="src/assets/outdoor/IMG_1194.jpg"
-        img03="src/assets/outdoor/IMG_1178.jpg"
+        img01="/assets/outdoor/IMG_1139.jpg"
+        img02="/assets/outdoor/IMG_1194.jpg"
+        img03="/assets/outdoor/IMG_1178.jpg"
         caption="hochjoch klettersteig"
         subcaption="unter den steinböcken"
         iso="100"
