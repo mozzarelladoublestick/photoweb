@@ -77,7 +77,7 @@ onMounted(() => {
 
       <img
         class="pt-4 reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
-        src="/assets/people/IMG_5102.jpg"
+        src="../assets/people/IMG_5102.jpg"
       />
 
       <BlockRight
