@@ -3,7 +3,7 @@ import Navbar from "./Navbar.vue";
 import BlockRight from "./BlockRight.vue";
 import BlockLeft from "./BlockLeft.vue";
 import { ref, onMounted } from "vue";
-import { reveal } from "/src/scripts/Outdoor";
+import { reveal } from "/scripts/Outdoor";
 onMounted(() => {
   // To check the scroll position on page load
   window.addEventListener("scroll", reveal);
@@ -18,7 +18,7 @@ onMounted(() => {
         <a href="/" class="logo">
           <img
             class="md:h-16 md:w-16 w-32 h-32 mr-2"
-            src="/src/assets/logo_black_square.svg"
+            src="/assets/logo_black_square.svg"
           />
         </a>
       </div>
@@ -38,9 +38,9 @@ onMounted(() => {
     </div>
     <div class="mt-10 mx-4 md:mx-60">
       <BlockLeft
-        img01="/src/assets/people/IMG_6375.jpg"
-        img02="/src/assets/people/IMG_6639.jpg"
-        img03="/src/assets/people/IMG_6528.jpg"
+        img01="/assets/people/IMG_6375.jpg"
+        img02="/assets/people/IMG_6639.jpg"
+        img03="/assets/people/IMG_6528.jpg"
         caption="love at sunset"
         subcaption="am schönen attersee"
         iso="100"
@@ -49,9 +49,9 @@ onMounted(() => {
       ></BlockLeft>
 
       <BlockRight
-        img01="/src/assets/people/IMG_2288.jpg"
-        img02="/src/assets/people/IMG_3590.jpg"
-        img03="/src/assets/people/IMG_3444.jpg"
+        img01="/assets/people/IMG_2288.jpg"
+        img02="/assets/people/IMG_3590.jpg"
+        img03="/assets/people/IMG_3444.jpg"
         caption="ein lachendes gesicht"
         subcaption="unterwegs in süddeutschland"
         iso="100"
@@ -61,13 +61,13 @@ onMounted(() => {
 
       <img
         class="pt-4 reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
-        src="/src/assets/people/image07.jpg"
+        src="/assets/people/image07.jpg"
       />
 
       <BlockLeft
-        img01="/src/assets/people/IMG_9445.jpg"
-        img02="/src/assets/people/IMG_9307.jpg"
-        img03="/src/assets/people/IMG_9546.jpg"
+        img01="/assets/people/IMG_9445.jpg"
+        img02="/assets/people/IMG_9307.jpg"
+        img03="/assets/people/IMG_9546.jpg"
         caption="linzer sommer"
         subcaption="verregnetes grillen"
         iso="100"
@@ -77,13 +77,13 @@ onMounted(() => {
 
       <img
         class="pt-4 reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
-        src="/src/assets/people/IMG_5102.jpg"
+        src="/assets/people/IMG_5102.jpg"
       />
 
       <BlockRight
-        img01="/src/assets/people/IMG_2611.jpg"
-        img02="/src/assets/people/IMG_2523.jpg"
-        img03="/src/assets/people/IMG_6837.jpg"
+        img01="/assets/people/IMG_2611.jpg"
+        img02="/assets/people/IMG_2523.jpg"
+        img03="/assets/people/IMG_6837.jpg"
         caption="u-bahn gedanken"
         subcaption="herbstliche urlaubstage"
         iso="100"
@@ -92,9 +92,9 @@ onMounted(() => {
       ></BlockRight>
 
       <BlockLeft
-        img01="/src/assets/people/IMG_3252.jpg"
-        img02="/src/assets/people/IMG_3232.jpg"
-        img03="/src/assets/people/image02.jpg"
+        img01="/assets/people/IMG_3252.jpg"
+        img02="/assets/people/IMG_3232.jpg"
+        img03="/assets/people/image02.jpg"
         caption="ganz hoch oben"
         subcaption="in den vorarlberger bergen"
         iso="100"
