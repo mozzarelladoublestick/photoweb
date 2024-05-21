@@ -17,7 +17,7 @@ const routes = [
         {
           name: "Sarah Wechselberger Fotografie",
           content:
-            "Porträtfotografie und Landschaftsfotografie in Oberösterreich und Vorarlberg. Paarfotografie, Familien, Verlobungen, Hochzeiten.",
+            "Porträtfotografie und Landschaftsfotografie in Linz Oberösterreich und Vorarlberg. Paarfotografie, Familien, Verlobungen, Hochzeiten.",
         },
       ],
     },
@@ -47,7 +47,7 @@ const routes = [
         {
           name: "Sarah Wechselberger Fotografie",
           content:
-            "Ich bin eine Studentin mit viel Freude an der Fotografie und der Möglichkeit, bedeutende Momente für immer festzuhalten. Kontaktiere mich!",
+            "Porträtfotografie in Linz Oberösterreich und Vorarlberg. Paarfotografie, Familienshooting, Verlobunsshooting, Hochzeitsfotografie.",
         },
       ],
     },
