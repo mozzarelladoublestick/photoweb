@@ -39,8 +39,8 @@ onMounted(() => {
     <div class="mt-10 mx-4 md:mx-60">
       <BlockLeft
         img01="/people/IMG_6375.jpg"
-        img02="../public/IMG_6375.jpg"
-        img03=".public/IMG_6375.jpg"
+        img02="/people/IMG_6639.jpg"
+        img03="/people/IMG_6528.jpg"
         caption="love at sunset"
         subcaption="am schönen attersee"
         iso="100"
@@ -49,9 +49,9 @@ onMounted(() => {
       ></BlockLeft>
 
       <BlockRight
-        img01="@/assets/people/IMG_2288.jpg"
-        img02="../assets/people/IMG_3590.jpg"
-        img03="/assets/people/IMG_3444.jpg"
+        img01="/people/IMG_2288.jpg"
+        img02="/people/IMG_3590.jpg"
+        img03="/people/IMG_3444.jpg"
         caption="ein lachendes gesicht"
         subcaption="unterwegs in süddeutschland"
         iso="100"
@@ -65,9 +65,9 @@ onMounted(() => {
       />
 
       <BlockLeft
-        img01="/assets/people/IMG_9445.jpg"
-        img02="/assets/people/IMG_9307.jpg"
-        img03="/assets/people/IMG_9546.jpg"
+        img01="/people/IMG_9445.jpg"
+        img02="/people/IMG_9307.jpg"
+        img03="/people/IMG_9546.jpg"
         caption="linzer sommer"
         subcaption="verregnetes grillen"
         iso="100"
@@ -81,9 +81,9 @@ onMounted(() => {
       />
 
       <BlockRight
-        img01="/assets/people/IMG_2611.jpg"
-        img02="/assets/people/IMG_2523.jpg"
-        img03="/assets/people/IMG_6837.jpg"
+        img01="/people/IMG_2611.jpg"
+        img02="/people/IMG_2523.jpg"
+        img03="/people/IMG_6837.jpg"
         caption="u-bahn gedanken"
         subcaption="herbstliche urlaubstage"
         iso="100"
