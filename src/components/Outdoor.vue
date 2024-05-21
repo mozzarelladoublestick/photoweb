@@ -19,7 +19,7 @@ onMounted(() => {
         <a href="/" class="logo">
           <img
             class="md:h-16 md:w-16 w-32 h-32 mr-2"
-            src="../assets/logo_black_square.svg"
+            src="../logo_black_square.svg"
           />
         </a>
       </div>
@@ -40,9 +40,9 @@ onMounted(() => {
     <div class="mt-10 mx-4 md:mx-60">
       <!--first block-->
       <BlockRight
-        img01="/assets/outdoor/IMG_1139.jpg"
-        img02="/assets/outdoor/IMG_1194.jpg"
-        img03="/assets/outdoor/IMG_1178.jpg"
+        img01="/outdoor/IMG_1139-2.jpg"
+        img02="/outdoor/IMG_1194.jpg"
+        img03="/outdoor/IMG_1178.jpg"
         caption="hochjoch klettersteig"
         subcaption="unter den steinböcken"
         iso="100"
@@ -51,9 +51,9 @@ onMounted(() => {
       ></BlockRight>
       <!--second block-->
       <BlockLeft
-        img01="src/assets/outdoor/image22.jpg"
-        img02="src/assets/outdoor/IMG_9820.jpg"
-        img03="src/assets/outdoor/image20.jpg"
+        img01="/outdoor/image22.jpg"
+        img02="/outdoor/IMG_9820.jpg"
+        img03="/outdoor/image20.jpg"
         caption="bregenzerwald"
         subcaption="zutrauliche murmile"
         iso="100"
@@ -62,9 +62,9 @@ onMounted(() => {
       >
       </BlockLeft>
       <BlockRight
-        img01="src/assets/outdoor/image05.jpg"
-        img02="src/assets/outdoor/image04.jpg"
-        img03="src/assets/outdoor/image13.jpg"
+        img01="/outdoor/image05.jpg"
+        img02="/outdoor/image04.jpg"
+        img03="/outdoor/image13.jpg"
         caption="das neunte bundesland"
         subcaption="erster besuch im burgenland"
         iso="100"
@@ -75,36 +75,3 @@ onMounted(() => {
     </div>
   </body>
 </template>
-
-<style scoped>
-.reveal-right {
-  position: relative;
-  transform: translateX(500px);
-  opacity: 0;
-  transition: 1s all ease;
-}
-.reveal-right.active {
-  transform: translateX(0);
-  opacity: 1;
-}
-.reveal-left {
-  position: relative;
-  transform: translateX(-500px);
-  opacity: 0;
-  transition: 1s all ease;
-}
-.reveal-left.active {
-  transform: translateX(0);
-  opacity: 1;
-}
-.reveal {
-  position: relative;
-  transform: translateY(150px);
-  opacity: 0;
-  transition: 1.5s all ease;
-}
-.reveal.active {
-  transform: translateY(0);
-  opacity: 1;
-}
-</style>
