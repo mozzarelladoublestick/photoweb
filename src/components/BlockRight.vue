@@ -7,6 +7,7 @@
           <img
             class="rotate-90 md:transform-none md:pt-10 flex w-8 h-fit align-left"
             src="../assets/icons/arrow_left.svg"
+            alt="Image Alt"
           />
           <div class="reveal-right">
             <p class="pt-10 flex text-left text-lg font-bold">
@@ -32,6 +33,7 @@
         <img
           class="flex mt-auto w-full md:w-96 h-fit reveal-right"
           :src="img02"
+          alt="Image Alt"
         />
       </div>
     </div>
@@ -39,6 +41,7 @@
   <img
     class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
     :src="img03"
+    alt="Image Alt"
   />
 </template>
 

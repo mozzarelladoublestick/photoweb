@@ -22,6 +22,7 @@ import Imprint from "./Imprint.vue";
         <img
           src="../assets/about/IMG_3730-2.jpg"
           class="max-h-64 xl:max-h-full rounded-full aspect-square xl:aspect-auto object-cover xl:rounded-md"
+          alt="Sarah Wechselberger Fotografin"
         />
       </div>
       <div
@@ -82,7 +83,7 @@ import Imprint from "./Imprint.vue";
             href="mailto:hello@sarahwechselberger.at"
             class="flex items-center"
           >
-            <img class="h-5 my-4 mr-1" src="../assets/icons/mail.svg" />
+            <img class="h-5 my-4 ml-2 mr-1" src="../assets/icons/mail.svg" />
             <p>hello@sarahwechselberger.at</p>
           </a>
         </div>

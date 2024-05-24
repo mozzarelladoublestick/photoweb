@@ -123,7 +123,11 @@ export default {
       />
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img class="swiper-img" src="../assets/cover/mountain_hochjoch.jpg" />
+          <img
+            class="swiper-img"
+            src="../assets/cover/mountain_hochjoch.jpg"
+            alt="Hochjoch Mountains"
+          />
           <div
             class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
           >
@@ -156,7 +160,11 @@ export default {
           </div>
         </div>
         <div class="swiper-slide">
-          <img class="swiper-img" src="../assets/people/IMG_6524.jpg" />
+          <img
+            class="swiper-img"
+            src="../assets/people/IMG_6524.jpg"
+            alt="Attersee Paarfoto"
+          />
           <div
             class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
           >
@@ -189,7 +197,11 @@ export default {
           </div>
         </div>
         <div class="swiper-slide">
-          <img class="swiper-img" src="../assets/cover/IMG_3509.jpg" />
+          <img
+            class="swiper-img"
+            src="../assets/cover/IMG_3509.jpg"
+            alt="Schnee Paarfoto"
+          />
           <div
             class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
           >
@@ -225,6 +237,7 @@ export default {
           <img
             class="swiper-img"
             src="../assets/cover/capricorns_hochjoch.jpg"
+            alt="Steinböcke Berge Outdoorfotografie"
           />
           <div
             class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
@@ -258,7 +271,11 @@ export default {
           </div>
         </div>
         <div class="swiper-slide">
-          <img class="swiper-img" src="../assets/people/IMG_5080.jpg" />
+          <img
+            class="swiper-img"
+            src="../assets/people/IMG_5080.jpg"
+            alt="Feier Fotografie"
+          />
           <div
             class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
           >
@@ -291,7 +308,11 @@ export default {
           </div>
         </div>
         <div class="swiper-slide">
-          <img class="swiper-img" src="../assets/cover/sonnenuntergang.jpg" />
+          <img
+            class="swiper-img"
+            src="../assets/cover/sonnenuntergang.jpg"
+            alt="Sonnenuntergang Berge Fotografie"
+          />
           <div
             class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
           >
