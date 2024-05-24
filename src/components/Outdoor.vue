@@ -18,23 +18,10 @@ onMounted(() => {
       <div class="flex items-center justify-center">
         <a href="/" class="logo">
           <img
-            class="md:h-16 md:w-16 w-32 h-32 mr-2"
+            class="h-16 w-16 md:w-32 md:h-32"
             src="../assets/logo_black_square.svg"
           />
         </a>
-      </div>
-    </div>
-    <div class="z-10 relative my-6 text-black top-2 right-4 text-center">
-      <div class="inline-flex">
-        <router-link to="/outdoor">
-          <h4 class="px-6">outdoor</h4>
-        </router-link>
-        <router-link to="/people">
-          <h4 class="px-6">people</h4>
-        </router-link>
-        <router-link to="/about">
-          <h4 class="px-6">about</h4>
-        </router-link>
       </div>
     </div>
     <div class="mt-10 mx-4 md:mx-60">

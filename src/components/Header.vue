@@ -60,7 +60,7 @@ export default {
           src="../assets/logo_black_square.svg"
         />
       </a>
-      <div class="flex flex-col justify-center items-center">
+      <div class="flex flex-col justify-center items-center px-6 text-center">
         <router-link to="/outdoor">
           <h4 class="px-6">outdoor</h4>
         </router-link>
@@ -76,7 +76,9 @@ export default {
         <a href="mailto:hello@sarahwechselberger.at" class="underline"
           ><p>hello@sarahwechselberger.at</p></a
         >
-        <div>&copy; All Rights Reserved Sarah Wechselberger 2024</div>
+        <div class="text-xs mt-4">
+          &copy; All Rights Reserved Sarah Wechselberger 2024
+        </div>
       </div>
     </div>
   </div>

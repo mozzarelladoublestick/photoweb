@@ -50,9 +50,13 @@ onUnmounted(() => {
 
 <template>
   <header>
-    <meta name="color-scheme" content="light only" />
+    <meta
+      name="Sarah Wechselberger Fotografie"
+      content="Porträtfotografie, Paarfotografie, Hochzeitesfotografie, Verlobungsshootings, Linz, Vorarlberg"
+    />
   </header>
   <div class="flex items-center justify-center"></div>
+  <h1 class="hidden">Sarah Wechselberger Fotografie</h1>
   <router-view></router-view>
 </template>
 
