@@ -129,19 +129,21 @@ export default {
             alt="Hochjoch Mountains"
           />
           <div
-            class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
+            class="text-white absolute bottom-1/4 md:top-2/4 left-2.5 px-8 md:px-16 text-left pt-6"
           >
             <h3>MONTAFON, VORARLBERG</h3>
             <h2>Up & Up</h2>
             <div class="inline-flex items-center">
               <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
-              <a href="/outdoor" class="text-lg !text-left font-light link"
+              <a
+                href="/outdoor"
+                class="text-md md:text-lg !text-left font-light link"
                 >explore my outdoor photography</a
               >
             </div>
           </div>
           <div
-            class="absolute text-white bottom-2 left-14 md:left-auto md:right-4"
+            class="absolute text-white bottom-2 left-5 md:left-auto md:right-4"
           >
             <div class="flex m-2 md:m-4 mb-24 md:mb-6 text-xs">
               <div class="flex-row mx-4 md:mx-10">
@@ -166,19 +168,21 @@ export default {
             alt="Attersee Paarfoto"
           />
           <div
-            class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
+            class="text-white absolute bottom-1/4 md:top-2/4 left-2.5 px-8 md:px-16 text-left pt-6"
           >
             <h3>ATTERSEE, UPPER AUSTRIA</h3>
             <h2>Sunset Love</h2>
             <div class="inline-flex items-center">
               <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
-              <a href="/people" class="text-lg !text-left font-light link"
+              <a
+                href="/people"
+                class="text-md md:text-lg !text-left font-light link"
                 >explore my people photography</a
               >
             </div>
           </div>
           <div
-            class="absolute text-white bottom-2 left-14 md:left-auto md:right-4"
+            class="absolute text-white bottom-2 left-5 md:left-auto md:right-4"
           >
             <div class="flex m-2 md:m-4 mb-24 md:mb-6 text-xs">
               <div class="flex-row mx-4 md:mx-10">
@@ -203,19 +207,21 @@ export default {
             alt="Schnee Paarfoto"
           />
           <div
-            class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
+            class="text-white absolute bottom-1/4 md:top-2/4 left-2.5 px-8 md:px-16 text-left pt-6"
           >
             <h3>UPPER AUSTRIA</h3>
             <h2>Winter Love</h2>
             <div class="inline-flex items-center">
               <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
-              <a href="/people" class="text-lg !text-left font-light link"
+              <a
+                href="/people"
+                class="text-md md:text-lg !text-left font-light link"
                 >explore my people photography</a
               >
             </div>
           </div>
           <div
-            class="absolute text-white bottom-2 left-14 md:left-auto md:right-4"
+            class="absolute text-white bottom-2 left-5 md:left-auto md:right-4"
           >
             <div class="flex m-2 md:m-4 mb-24 md:mb-6 text-xs">
               <div class="flex-row mx-4 md:mx-10">
@@ -240,19 +246,21 @@ export default {
             alt="Steinböcke Berge Outdoorfotografie"
           />
           <div
-            class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
+            class="text-white absolute bottom-1/4 md:top-2/4 left-2.5 px-8 md:px-16 text-left pt-6"
           >
             <h3>MONTAFON, VORARLBERG</h3>
             <h2>Kings of the Alps</h2>
             <div class="inline-flex items-center">
               <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
-              <a href="/outdoor" class="text-lg !text-left font-light link"
+              <a
+                href="/outdoor"
+                class="text-md md:text-lg !text-left font-light link"
                 >explore my outdoor photography</a
               >
             </div>
           </div>
           <div
-            class="absolute text-white bottom-2 left-14 md:left-auto md:right-4"
+            class="absolute text-white bottom-2 left-5 md:left-auto md:right-4"
           >
             <div class="flex m-2 md:m-4 mb-24 md:mb-6 text-xs">
               <div class="flex-row mx-4 md:mx-10">
@@ -277,19 +285,21 @@ export default {
             alt="Feier Fotografie"
           />
           <div
-            class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
+            class="text-white absolute bottom-1/4 md:top-2/4 left-2.5 px-8 md:px-16 ext-left pt-6"
           >
             <h3>LINZ, UPPER AUSTRIA</h3>
             <h2>Let's celebrate!</h2>
             <div class="inline-flex items-center">
               <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
-              <a href="/people" class="text-lg !text-left font-light link"
+              <a
+                href="/people"
+                class="text-md md:text-lg !text-left font-light link"
                 >explore my people photography</a
               >
             </div>
           </div>
           <div
-            class="absolute text-white bottom-2 left-14 md:left-auto md:right-4"
+            class="absolute text-white bottom-2 left-5 md:left-auto md:right-4"
           >
             <div class="flex m-2 md:m-4 mb-24 md:mb-6 text-xs">
               <div class="flex-row mx-4 md:mx-10">
@@ -314,19 +324,21 @@ export default {
             alt="Sonnenuntergang Berge Fotografie"
           />
           <div
-            class="text-white absolute top-2/4 left-2.5 px-16 text-left pt-6"
+            class="text-white absolute bottom-1/4 md:top-2/4 left-2.5 px-8 md:px-16 text-left pt-6"
           >
             <h3>BREGENZERWALD, VORARLBERG</h3>
             <h2>The Last Rays</h2>
             <div class="inline-flex items-center">
               <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
-              <a href="/outdoor" class="text-lg !text-left font-light link"
+              <a
+                href="/outdoor"
+                class="text-md md:text-lg !text-left font-light link"
                 >explore my outdoor photography</a
               >
             </div>
           </div>
           <div
-            class="absolute text-white bottom-2 left-14 md:left-auto md:right-4"
+            class="absolute text-white bottom-2 left-5 md:left-auto md:right-4"
           >
             <div class="flex m-2 md:m-4 mb-24 md:mb-6 text-xs">
               <div class="flex-row mx-4 md:mx-10">

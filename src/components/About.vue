@@ -83,7 +83,7 @@ import Imprint from "./Imprint.vue";
             href="mailto:hello@sarahwechselberger.at"
             class="flex items-center"
           >
-            <img class="h-5 my-4 ml-2 mr-1" src="../assets/icons/mail.svg" />
+            <img class="h-5 my-4 md:ml-2 mr-1" src="../assets/icons/mail.svg" />
             <p>hello@sarahwechselberger.at</p>
           </a>
         </div>
@@ -91,7 +91,9 @@ import Imprint from "./Imprint.vue";
     </div>
     <div class="mx-auto mt-12 text-center">
       <Imprint class="pb-12"></Imprint>
-      &copy; All Rights Reserved Sarah Wechselberger 2024
+      <p class="text-sm mt-4">
+        &copy; All Rights Reserved Sarah Wechselberger 2024
+      </p>
     </div>
   </body>
 </template>
