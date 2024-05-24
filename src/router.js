@@ -15,7 +15,7 @@ const routes = [
       title: "Sarah Wechselberger",
       metaTags: [
         {
-          name: "Sarah Wechselberger Fotografie",
+          name: "description",
           content:
             "Porträtfotografie und Landschaftsfotografie in Linz Oberösterreich und Vorarlberg. Paarfotografie, Familien, Verlobungen, Hochzeiten.",
         },
@@ -30,7 +30,7 @@ const routes = [
       title: "Sarah Wechselberger",
       metaTags: [
         {
-          name: "Sarah Wechselberger Fotografie",
+          name: "description",
           content:
             "Ich bin eine Studentin mit viel Freude an der Fotografie und der Möglichkeit, bedeutende Momente für immer festzuhalten.",
         },
@@ -45,7 +45,7 @@ const routes = [
       title: "Sarah Wechselberger",
       metaTags: [
         {
-          name: "Sarah Wechselberger Fotografie",
+          name: "description",
           content:
             "Porträtfotografie in Linz Oberösterreich und Vorarlberg. Paarfotografie, Familienshooting, Verlobunsshooting, Hochzeitsfotografie.",
         },
@@ -60,7 +60,7 @@ const routes = [
       title: "Sarah Wechselberger",
       metaTags: [
         {
-          name: "Sarah Wechselberger Fotografie",
+          name: "description",
           content:
             "Outdoor- und Landschaftsfotografie mit hoher Qualität und viel Freude an Natur, Bergen und Sport wie Wandern, Klettern oder Skifahren. Zuhause in Vorarlberg und Oberösterreich.",
         },
