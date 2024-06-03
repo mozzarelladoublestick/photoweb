@@ -1,10 +1,10 @@
 <template>
-  <div class="flex flex-col md:flex-row md:justify-center">
+  <div class="flex flex-col md:flex-row md:justify-center items-start">
     <div>
       <img class="md:m-4 w-full md:w-96 flex h-fit reveal-left" :src="img01" />
     </div>
-    <div class="flex md:m-4">
-      <div class="flex flex-col">
+    <div class="flex md:m-4 items-start">
+      <div class="flex flex-col items-start">
         <div class="image-block">
           <img
             class="rotate-90 md:transform-none md:pt-10 flex w-8 h-fit align-left"

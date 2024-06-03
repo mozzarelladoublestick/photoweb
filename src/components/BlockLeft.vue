@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col md:flex-row md:justify-center">
-    <div class="flex md:m-4">
-      <div class="flex flex-col">
+  <div class="flex flex-col md:flex-row md:justify-center items-start">
+    <div class="flex md:m-4 items-start">
+      <div class="flex flex-col items-start">
         <div class="image-block">
           <div>
             <img
