@@ -1,10 +1,8 @@
 <template>
-  <div class="flex flex-col md:flex-row md:justify-center items-start">
-    <div>
-      <img class="md:m-4 w-full md:w-96 flex h-fit reveal-left" :src="img01" />
-    </div>
-    <div class="flex md:m-4 items-start">
-      <div class="flex flex-col items-start">
+  <div class="flex flex-col md:flex-row md:justify-center">
+    <img class="md:m-4 w-full md:w-96 flex h-fit reveal-left" :src="img01" />
+    <div class="flex md:m-4">
+      <div class="flex flex-col">
         <div class="image-block">
           <img
             class="rotate-90 md:transform-none md:pt-10 flex w-8 h-fit align-left"
@@ -32,23 +30,19 @@
             </div>
           </div>
         </div>
-        <div>
-          <img
-            class="flex mt-auto w-full md:w-96 h-fit reveal-right"
-            :src="img02"
-            alt="Image Alt"
-          />
-        </div>
+        <img
+          class="flex mt-auto w-full md:w-96 h-fit reveal-right"
+          :src="img02"
+          alt="Image Alt"
+        />
       </div>
     </div>
   </div>
-  <div>
-    <img
-      class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
-      :src="img03"
-      alt="Image Alt"
-    />
-  </div>
+  <img
+    class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
+    :src="img03"
+    alt="Image Alt"
+  />
 </template>
 
 <script>
