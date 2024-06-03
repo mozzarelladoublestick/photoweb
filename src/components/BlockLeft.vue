@@ -3,13 +3,11 @@
     <div class="flex md:m-4 items-start">
       <div class="flex flex-col items-start">
         <div class="image-block">
-          <div>
-            <img
-              class="rotate-90 md:transform-none md:pt-10 flex w-8 h-fit align-right"
-              src="../assets/icons/arrow_right.svg"
-              alt="Image Alt"
-            />
-          </div>
+          <img
+            class="rotate-90 md:transform-none md:pt-10 flex w-8 h-fit align-right"
+            src="../assets/icons/arrow_right.svg"
+            alt="Image Alt"
+          />
           <div class="reveal-left">
             <p class="pt-10 flex text-left text-lg font-bold">{{ caption }}</p>
             <p class="flex text-left">{{ subcaption }}</p>
@@ -29,26 +27,20 @@
             </div>
           </div>
         </div>
-        <div>
-          <img
-            class="mb-4 md:mb-0 md:mt-auto w-full md:w-96 h-fit reveal-left"
-            :src="img01"
-            alt="Image Alt"
-          />
-        </div>
+        <img
+          class="flex mb-4 md:mb-0 md:mt-auto w-full md:w-96 h-fit reveal-left"
+          :src="img01"
+          alt="Image Alt"
+        />
       </div>
     </div>
-    <div>
-      <img class="md:m-4 w-full md:w-96 flex h-fit reveal-right" :src="img02" />
-    </div>
+    <img class="md:m-4 w-full md:w-96 flex h-fit reveal-right" :src="img02" />
   </div>
-  <div>
-    <img
-      class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
-      :src="img03"
-      alt="Image Alt"
-    />
-  </div>
+  <img
+    class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
+    :src="img03"
+    alt="Image Alt"
+  />
 </template>
 
 <script>
@@ -89,4 +81,3 @@ export default {
   },
 };
 </script>
-<style></style>
