@@ -12,7 +12,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <body class="relative overflow-hidden h-full">
+  <body class="relative overflow-hidden">
     <div class="relative z-10 text-black top-2 left-4">
       <div class="flex items-center justify-center">
         <a href="/" class="logo">
@@ -47,7 +47,7 @@ onMounted(() => {
       ></BlockRight>
 
       <img
-        class="pt-4 reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
+        class="pt-4 reveal m-4 mx-auto w-full md:w-[801px]"
         src="../assets/people/image07.jpg"
       />
 
@@ -63,7 +63,7 @@ onMounted(() => {
       ></BlockLeft>
 
       <img
-        class="pt-4 reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
+        class="pt-4 reveal m-4 mx-auto w-full md:w-[801px]"
         src="../assets/people/IMG_5102.jpg"
       />
 

@@ -37,7 +37,7 @@
     <img class="md:m-4 w-full md:w-96 flex h-fit reveal-right" :src="img02" />
   </div>
   <img
-    class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
+    class="reveal m-4 mx-auto w-full md:w-[801px]"
     :src="img03"
     alt="Image Alt"
   />

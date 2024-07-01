@@ -39,7 +39,7 @@
     </div>
   </div>
   <img
-    class="reveal m-4 mx-auto align-center w-full md:w-[801px] h-fit"
+    class="reveal m-4 mx-auto w-full md:w-[801px]"
     :src="img03"
     alt="Image Alt"
   />

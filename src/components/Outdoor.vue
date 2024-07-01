@@ -13,7 +13,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <body class="relative overflow-hidden h-full">
+  <body class="relative overflow-hidden">
     <div class="relative z-10 text-black top-2 left-4">
       <div class="flex items-center justify-center">
         <a href="/" class="logo">
