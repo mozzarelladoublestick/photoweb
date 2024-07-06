@@ -1,5 +1,4 @@
 <script>
-// core version + navigation, pagination modules:
 import Menu from "./Menu.vue";
 import Swiper from "swiper";
 import Imprint from "./Imprint.vue";
