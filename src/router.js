@@ -12,7 +12,7 @@ const routes = [
     name: "Home",
     component: Header,
     meta: {
-      title: "Sarah Wechselberger",
+      title: "Sarah Wechselberger - Fotografie in Linz",
       metaTags: [
         {
           name: "description",
@@ -27,7 +27,7 @@ const routes = [
     name: "About",
     component: About,
     meta: {
-      title: "Sarah Wechselberger",
+      title: "Sarah Wechselberger - Über mich",
       metaTags: [
         {
           name: "description",
@@ -42,7 +42,7 @@ const routes = [
     name: "People",
     component: People,
     meta: {
-      title: "Sarah Wechselberger",
+      title: "Sarah Wechselberger - Hochzeiten Paare Familien Fotografie ",
       metaTags: [
         {
           name: "description",
@@ -57,7 +57,7 @@ const routes = [
     name: "Outdoor",
     component: Outdoor,
     meta: {
-      title: "Sarah Wechselberger",
+      title: "Sarah Wechselberger - Outdoor Landschaften Fotografie",
       metaTags: [
         {
           name: "description",
