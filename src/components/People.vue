@@ -36,13 +36,29 @@ onMounted(() => {
       ></BlockLeft>
 
       <BlockRight
-        img01="/people/IMG_2288.jpg"
+        img01="/people/IMG_8518.jpg"
+        img02="/people/IMG_9767.jpg"
+        img03="/people/IMG_0471.jpg"
+        caption="hagenberger sommerfest"
+        subcaption="semester done!"
+        iso="200"
+        shutter="1/320"
+        arpeture="f/6.3"
+      ></BlockRight>
+
+      <img
+        class="pt-4 reveal m-4 mx-auto w-full md:w-[801px]"
+        src="../assets/people/IMG_9629.jpg"
+      />
+
+      <BlockRight
+        img01="/people/IMG_3551.jpg"
         img02="/people/IMG_3590.jpg"
         img03="/people/IMG_3444.jpg"
-        caption="ein lachendes gesicht"
-        subcaption="unterwegs in süddeutschland"
+        caption="winterliebe"
+        subcaption="im mühlviertel"
         iso="100"
-        shutter="1/320"
+        shutter="1/400"
         arpeture="f/1.8"
       ></BlockRight>
 
