@@ -62,6 +62,17 @@ onMounted(() => {
         arpeture="f/1.8"
       ></BlockRight>
 
+      <BlockLeft
+        img01="/people/IMG_5170.jpg"
+        img02="/people/IMG_5358.jpg"
+        img03="/people/IMG_5423.jpg"
+        caption="engagement shoot!"
+        subcaption="im montafon"
+        iso="100"
+        shutter="1/400"
+        arpeture="f/1.8"
+      ></BlockLeft>
+
       <img
         class="pt-4 reveal m-4 mx-auto w-full md:w-[801px]"
         src="../assets/people/image07.jpg"
