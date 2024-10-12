@@ -25,6 +25,26 @@ onMounted(() => {
     </div>
     <div class="mt-10 mx-4 md:mx-60">
       <BlockLeft
+        img01="/people/IMG_4004.jpg"
+        img02="/people/IMG_4230.jpg"
+        img03="/people/IMG_5747.jpg"
+        caption="just married"
+        subcaption="forever beings today"
+        iso="500"
+        shutter="1/400"
+        arpeture="f/1.8"
+      ></BlockLeft>
+      <BlockRight
+        img01="/people/IMG_4026.jpg"
+        img02="/people/IMG_3889.jpg"
+        img03="/people/IMG_4678.jpg"
+        caption="first dance"
+        subcaption="twirl of a lifetime"
+        iso="1250"
+        shutter="1/400"
+        arpeture="f/1.8"
+      ></BlockRight>
+      <BlockLeft
         img01="/people/IMG_6375.jpg"
         img02="/people/IMG_6639.jpg"
         img03="/people/IMG_6528.jpg"

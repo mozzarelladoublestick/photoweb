@@ -124,6 +124,84 @@ export default {
         <div class="swiper-slide">
           <img
             class="swiper-img"
+            src="../assets/cover/IMG_3999.jpg"
+            alt="Hochzeitstanz"
+          />
+          <div
+            class="text-white absolute bottom-1/4 md:top-2/4 left-2.5 px-8 md:px-16 text-left pt-6"
+          >
+            <h3>UPPER AUSTRIA</h3>
+            <h2>Just Married</h2>
+            <a
+              href="/people"
+              class="inline-flex items-center text-md md:text-lg !text-left font-light link"
+            >
+              <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
+
+              explore my people photography
+            </a>
+          </div>
+          <div
+            class="absolute text-white bottom-2 left-5 md:left-auto md:right-4"
+          >
+            <div class="flex m-2 md:m-4 mb-24 md:mb-6 text-xs">
+              <div class="flex-row mx-4 md:mx-10">
+                <p class="font-bold">ISO</p>
+                <p>640</p>
+              </div>
+              <div class="flex-row mx-4 md:mx-10">
+                <p class="font-bold">SHUTTER</p>
+                <p>1/200</p>
+              </div>
+              <div class="flex-row mx-4 md:mx-10">
+                <p class="font-bold">APERTURE</p>
+                <p>f/1.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="swiper-img"
+            src="../assets/cover/IMG_5747.jpg"
+            alt="Hochzeitsgäste"
+          />
+          <div
+            class="text-white absolute bottom-1/4 md:top-2/4 left-2.5 px-8 md:px-16 text-left pt-6"
+          >
+            <h3>UPPER AUSTRIA</h3>
+            <h2>Surrounded by Love</h2>
+            <a
+              href="/people"
+              class="inline-flex items-center text-md md:text-lg !text-left font-light link"
+            >
+              <img class="h-4 w-4 mr-2" src="../assets/icons/play.svg" />
+
+              explore my people photography
+            </a>
+          </div>
+          <div
+            class="absolute text-white bottom-2 left-5 md:left-auto md:right-4"
+          >
+            <div class="flex m-2 md:m-4 mb-24 md:mb-6 text-xs">
+              <div class="flex-row mx-4 md:mx-10">
+                <p class="font-bold">ISO</p>
+                <p>640</p>
+              </div>
+              <div class="flex-row mx-4 md:mx-10">
+                <p class="font-bold">SHUTTER</p>
+                <p>1/200</p>
+              </div>
+              <div class="flex-row mx-4 md:mx-10">
+                <p class="font-bold">APERTURE</p>
+                <p>f/1.8</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="swiper-img"
             src="../assets/cover/mountain_hochjoch.jpg"
             alt="Hochjoch Mountains"
           />
