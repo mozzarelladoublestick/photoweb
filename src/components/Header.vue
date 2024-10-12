@@ -124,14 +124,14 @@ export default {
         <div class="swiper-slide">
           <img
             class="swiper-img"
-            src="../assets/cover/IMG_3999.jpg"
-            alt="Hochzeitstanz"
+            src="../assets/cover/IMG_5747.jpg"
+            alt="Hochzeitsgäste"
           />
           <div
             class="text-white absolute bottom-1/4 md:top-2/4 left-2.5 px-8 md:px-16 text-left pt-6"
           >
             <h3>UPPER AUSTRIA</h3>
-            <h2>Just Married</h2>
+            <h2>Surrounded by Love</h2>
             <a
               href="/people"
               class="inline-flex items-center text-md md:text-lg !text-left font-light link"
@@ -163,14 +163,14 @@ export default {
         <div class="swiper-slide">
           <img
             class="swiper-img"
-            src="../assets/cover/IMG_5747.jpg"
-            alt="Hochzeitsgäste"
+            src="../assets/cover/IMG_3999.jpg"
+            alt="Hochzeitstanz"
           />
           <div
             class="text-white absolute bottom-1/4 md:top-2/4 left-2.5 px-8 md:px-16 text-left pt-6"
           >
             <h3>UPPER AUSTRIA</h3>
-            <h2>Surrounded by Love</h2>
+            <h2>Just Married</h2>
             <a
               href="/people"
               class="inline-flex items-center text-md md:text-lg !text-left font-light link"
